@@ -1,0 +1,186 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="edit-profile-section">
+  <div class="edit-profile-card">
+    <h2>Edit Profile</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+
+  {% if user_form.non_field_errors %}
+    <div class="form-errors">{{ user_form.non_field_errors }}</div>
+  {% endif %}
+  {% if profile_form.non_field_errors %}
+    <div class="form-errors">{{ profile_form.non_field_errors }}</div>
+  {% endif %}
+
+  <!-- Profile Picture -->
+  <div class="profile-pic-container">
+    {% if profile and profile.profile_picture %}
+        <img src="{{ profile.profile_picture.url }}" alt="Profile Picture" class="profile-pic">
+    {% else %}
+        <img src="{% static 'images/default_avatar.png' %}" alt="Default Avatar" class="profile-pic">
+    {% endif %}
+    {{ profile_form.profile_picture }}
+  </div>
+
+  <!-- User Form Fields -->
+  {% for field in user_form %}
+    <div class="form-group">
+      {{ field.label_tag }}
+      {{ field }}
+      {% if field.errors %}
+        <div class="field-errors">{{ field.errors }}</div>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  <button type="submit" class="save-btn">Save Changes</button>
+</form>
+
+  </div>
+</section>
+
+<style>
+/* Center section */
+.edit-profile-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ffe0b2, #fff3e0);
+  padding: 20px;
+}
+
+.edit-profile-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 50px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #ff6f00;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.profile-pic-container {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ff9800;
+}
+
+.file-input {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #ff9800;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.save-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(to right, #ff9800, #ff5722);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.save-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 87, 34, 0.4);
+}
+
+.field-errors {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.form-errors {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+  .edit-profile-card {
+    padding: 25px 20px;
+  }
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+}
+.profile-pic-container input[type="file"] {
+  margin-top: 15px;
+  display: block;
+  width: 100%;
+  font-size: 0.95rem;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+</style>
+
+<script>
+  // Prevent browser back button after order success
+  window.history.pushState(null, "", window.location.href);
+  window.onpopstate = function() {
+      window.history.pushState(null, "", window.location.href);
+  };
+</script>
+{% endblock %}

@@ -1,0 +1,199 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container my-5 pt-5">
+  <div class="row">
+    <!-- Left: Product Images -->
+    <div class="col-lg-6 mb-4">
+      <div class="mb-3 text-center">
+        <img src="{{ product.image.url }}" id="mainImage" class="img-fluid rounded shadow-sm" 
+             style="max-height:400px; width:auto; cursor:pointer;" 
+             alt="{{ product.name }}" data-bs-toggle="modal" data-bs-target="#imageModal">
+      </div>
+
+      <div class="d-flex gap-2 justify-content-center">
+        {% for img in images %}
+          <img src="{{ img.image.url }}" class="img-thumbnail" style="width:60px; height:80px; cursor:pointer;" 
+               alt="{{ product.name }}" data-bs-toggle="modal" data-bs-target="#imageModal" 
+               data-bs-img="{{ img.image.url }}">
+        {% empty %}
+          <p>No extra images</p>
+        {% endfor %}
+      </div>
+
+      <!-- Add to Cart / Buy Now -->
+      <div class="mt-3 d-flex gap-2 justify-content-center">
+        <button class="btn btn-outline-warning flex-fill add-to-cart-btn" data-product-id="{{ product.id }}">
+          Add to Cart
+        </button>
+        <a href="{% url 'buy_now' product.id %}" class="btn btn-warning text-white flex-fill">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- Modal for Fullscreen Image -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0">
+          <div class="modal-body p-0 text-center">
+            <img src="{{ product.image.url }}" id="modalImage" class="img-fluid rounded shadow-sm" alt="{{ product.name }}">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Product Info -->
+    <div class="col-lg-6">
+      <h2 class="fw-bold">{{ product.name }}</h2>
+
+      <div class="mb-2">
+        <span class="fs-3 fw-semibold text-warning">₹{{ product.price }}</span>
+        {% if product.mrp %}
+          <span class="text-muted text-decoration-line-through ms-2">₹{{ product.mrp }}</span>
+        {% endif %}
+      </div>
+      <p class="text-success mb-3">Free Delivery</p>
+
+      <h5>Product Details</h5>
+      <ul class="list-unstyled mb-3">
+        <li><strong>Material:</strong> {{ product.material }}</li>
+        <li><strong>Color:</strong> {{ product.color }}</li>
+        <li><strong>Quantity:</strong> {{ product.quantity }}</li>
+        <li><strong>Region:</strong> {{ product.region }}</li>
+      </ul>
+      <p>{{ product.description }}</p>
+
+      <!-- Sold By -->
+<div class="border p-3 mb-3 rounded d-flex align-items-center gap-2">
+  <a href="{% url 'public_seller_profile' product.seller.id %}" class="d-flex align-items-center text-decoration-none text-dark">
+    {% if product.seller.profile_picture %}
+      <img src="{{ product.seller.profile_picture.url }}" class="rounded-circle me-2" style="width:40px; height:40px; object-fit:cover;" alt="Seller">
+    {% else %}
+      <div class="rounded-circle bg-warning me-2 d-flex justify-content-center align-items-center" style="width:40px; height:40px;">
+        <i class="fas fa-user text-white"></i>
+      </div>
+    {% endif %}
+    <span>{{ product.seller.user.username }}</span>
+  </a>
+</div>
+
+
+      <!-- User Reviews -->
+      <h5>User Reviews</h5>
+      <div class="mb-2">
+        {% for review in product_reviews %}
+        <div class="border p-2 rounded mb-2">
+          <strong>{{ review.user.username }}</strong>
+          <div class="text-warning">{{ review.rating|default:"★★★★★" }}</div>
+          <p>{{ review.comment }}</p>
+        </div>
+        {% empty %}
+        <p>No reviews yet.</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Similar Products -->
+  <h4 class="mt-5 mb-3">Similar Products</h4>
+  <div class="row">
+    {% for p in similar_products %}
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+        <a href="{% url 'product_detail' p.id %}" class="text-decoration-none text-dark">
+          <div class="card shadow-sm h-100" style="height: 250px; margin:5px;">
+            <img src="{{ p.image.url }}" class="card-img-top" alt="{{ p.name }}" style="height:120px; object-fit:cover;">
+            <div class="card-body p-2">
+              <h6 class="card-title text-truncate">{{ p.name }}</h6>
+              <p class="mb-1 text-muted small">₹{{ p.price }}</p>
+              <p class="mb-0 text-muted small">Seller: {{ p.seller.user.username }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% empty %}
+      <p>No similar products available.</p>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Toast container -->
+<div class="position-fixed top-0 end-0 p-3" style="z-index: 1080">
+  <div id="cartToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">Item added to cart!</div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+const thumbnails = document.querySelectorAll('img[data-bs-img]');
+const modalImage = document.getElementById('modalImage');
+thumbnails.forEach(thumbnail => {
+    thumbnail.addEventListener('click', () => {
+        modalImage.src = thumbnail.getAttribute('data-bs-img');
+    });
+});
+
+</script>
+
+
+
+{% block scripts %}
+<script>
+  $(document).ready(function(){
+    $('.add-to-cart-btn').on('click', function(e){
+        e.preventDefault();
+        var productId = $(this).data('product-id');
+        var addCartUrl = "{% url 'add_to_cart' 0 %}".replace("0", productId);
+
+        $.ajax({
+            url: addCartUrl,
+            method: 'GET',
+            headers: {'X-Requested-With': 'XMLHttpRequest'}, // ✅ tell backend it's AJAX
+            success: function(response){
+                if(response.login_required){
+                    window.location.href = response.redirect_url;
+                    return;
+                }
+                if(response.success){
+                    // Update badge
+                    let cartIcon = $('#cart-icon');
+                    let badge = cartIcon.siblings('.badge');
+                    if(badge.length){
+                        badge.text(response.total_items);
+                    } else {
+                        cartIcon.after(
+                          '<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">'
+                          + response.total_items + '</span>'
+                        );
+                    }
+
+                    // Show toast
+                    if(document.getElementById('cartToast')){
+                        var toast = new bootstrap.Toast(document.getElementById('cartToast'));
+                        toast.show();
+                    }
+
+                    // ✅ After 1s, go to cart page
+                    setTimeout(function(){
+                        window.location.href = "{% url 'view_cart' %}";
+                    }, 1000);
+                }
+            },
+            error: function(xhr){
+                if (xhr.status === 302 || xhr.status === 403) {
+                    window.location.href = "{% url 'login' %}?next={{ request.path }}";
+                } else {
+                    alert('Failed to add to cart.');
+                }
+            }
+        });
+    });
+});
+
+</script>
+{% endblock %}

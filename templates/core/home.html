@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="hero">
+  <h1>Celebrate Local Talent Connect with Culture</h1>
+  <div class="hero-buttons">
+    <a href="{% url 'product_list' %}" class="shop-btn">Shop Now</a>
+  </div>
+</section>
+
+<section class="roles">
+  <div class="role-card buyer">
+    <h2>🛍️ For Buyers</h2>
+    <p>Discover handmade treasures and explore regional arts from all over India.</p>
+    <a href="{% url 'product_list' %}">Explore Products</a>
+  </div>
+  <div class="role-card seller">
+    <h2>🧵 For Sellers</h2>
+    <p>Start selling your creations. Create your profile and gain recognition!</p>
+    <a href="{% url 'start_selling' %}">Start Selling</a>
+  </div>
+</section>
+
+<!-- Explore By Region -->
+<!-- Explore By Region -->
+<section id="explore" class="regions">
+  <h2>🌍 Explore By Region</h2>
+  <div class="scroll-cards">
+    {% for region in regions %}
+      <a href="{% url 'products_by_region' region.id %}" class="region-card-link  text-decoration-none text-dark">
+        <div class="card">
+          <img src="{% if region.image %}{{ region.image.url }}{% else %}{% static 'images/default-region.jpg' %}{% endif %}" 
+               alt="{{ region.name }}">
+          <p>{{ region.name }}</p>
+        </div>
+      </a>
+    {% empty %}
+      <p>No regions available.</p>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Featured Products -->
+<section class="products">
+  <h2>🌟 Featured Products</h2>
+  <div class="scroll-cards">
+    {% for product in featured_products %}
+      <a href="{% url 'product_detail' product.id %}" class="text-decoration-none text-dark">
+        <div class="card" style="width: 150px; margin: 5px;">
+          <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static 'images/default-product.jpg' %}{% endif %}" 
+               alt="{{ product.name }}" style="height: 150px; object-fit: cover;">
+          <p>{{ product.name }}<br><strong>₹{{ product.price }}</strong></p>
+        </div>
+      </a>
+    {% empty %}
+      <p>No products available right now.</p>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about-section" class="py-5 bg-light">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <!-- Text Column -->
+      <div class="col-md-8 mb-md-0 p-5 about">
+        <h2 class="fw-bold about-text">About Kalakart</h2>
+        <p>
+          Kalakart is a platform dedicated to promoting and celebrating the rich tapestry of Indian arts and crafts.
+          We connect talented artisans with buyers who appreciate the beauty of handmade creations.
+        </p>
+        <p>
+          Our mission is to empower local artists, preserve traditional crafts, and provide a marketplace for unique, authentic products.
+        </p>
+        <a href="{% url 'about' %}" class="btn btn-primary mt-3 d-none d-lg-inline-block">Learn More</a>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-md-4 text-center about-image">
+        <img src="{% static 'images/about.jpeg' %}" alt="Kalakart" class="img-fluid rounded">
+      </div>
+      <div class="col-md-8 mb-4 mb-md-0 d-block d-lg-none about p-5">
+        <a href="{% url 'about' %}" class="btn btn-primary mt-3">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script>
+    // Replace history entry to prevent back navigation
+    if (window.location.pathname === "{% url 'home' %}") {
+        window.history.replaceState({}, document.title, window.location.href);
+    }
+  </script>
+{% endblock %}

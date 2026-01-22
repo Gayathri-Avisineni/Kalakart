@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+<!-- Space below navbar -->
+<div class="mt-5"></div>
+
+<!-- Title with spacing -->
+<h2 class="mt-4 mb-5 pt-4" style="color: rgb(187, 44, 44);">
+    {% if query %}
+        Search Results for "{{ query }}"
+    {% else %}
+        All Products
+    {% endif %}
+</h2>
+
+<!-- Filter form -->
+<form method="get" class="row g-2 mb-4 align-items-center">
+    <!-- Search input -->
+    <div class="col-md-3">
+        <input type="text" name="q" value="{{ query }}" class="form-control" placeholder="Search...">
+    </div>
+
+    <!-- Category dropdown -->
+    <div class="col-md-2">
+        <select name="category" class="form-select">
+            <option value="">All Categories</option>
+            {% for cat in categories %}
+                <option value="{{ cat.id }}" {% if selected_category == cat.id|stringformat:"s" %}selected{% endif %}>
+                    {{ cat.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <!-- Region dropdown -->
+   <div class="col-md-2">
+        <select name="region" class="form-select">
+            <option value="">All Regions</option>
+            {% for reg in regions %}
+                <option value="{{ reg.id }}" {% if selected_region == reg.id|stringformat:"s" %}selected{% endif %}>
+                    {{ reg.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+
+
+    <!-- Min Price -->
+    <div class="col-md-2">
+        <input type="number" name="min_price" value="{{ min_price }}" class="form-control" placeholder="Min Price">
+    </div>
+
+    <!-- Max Price -->
+    <div class="col-md-2">
+        <input type="number" name="max_price" value="{{ max_price }}" class="form-control" placeholder="Max Price">
+    </div>
+
+    <!-- Filter button -->
+    <div class="col-md-1">
+        <button class="btn btn-primary w-100">Filter</button>
+    </div>
+</form>
+
+
+<!-- Sorting options -->
+<div class="mb-3">
+    <a href="?q={{ query }}&sort=price_asc" class="btn btn-sm btn-outline-secondary">Price ↑</a>
+    <a href="?q={{ query }}&sort=price_desc" class="btn btn-sm btn-outline-secondary">Price ↓</a>
+    <a href="?q={{ query }}&sort=newest" class="btn btn-sm btn-outline-secondary">Newest</a>
+</div>
+
+<!-- Products display -->
+<div class="row">
+    {% for product in products %}
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+        <a href="{% url 'product_detail' product.id %}" class="text-decoration-none text-dark" style="display: block;">
+            <div class="card shadow-sm h-100" style="height: 250px; margin: 5px;">
+                <img src="{{ product.image.url }}" 
+                     class="card-img-top" 
+                     alt="{{ product.name }}" 
+                     style="height: 120px; object-fit: cover;">
+                <div class="card-body p-2">
+                    <h6 class="card-title text-truncate">{{ product.name }}</h6>
+                    <p class="mb-1 text-dark small">₹{{ product.price }}</p>
+                    <p class="mb-0 text-dark small">Seller: {{ product.seller.user.username }}</p>
+                    <p class="mb-0 small d-flex align-items-center">
+                        <span class="rating-stars">
+                            {% for i in "12345" %}
+                                {% if forloop.counter <= product.seller.rating %}
+                                    <span class="star full"></span>
+                                {% elif forloop.counter|add:"-1" < product.seller.rating %}
+                                    <span class="star half"></span>
+                                {% else %}
+                                    <span class="star empty"></span>
+                                {% endif %}
+                            {% endfor %}
+                        </span>
+                        <span class="text-muted small ms-1">({{ product.seller.rating|floatformat:1 }})</span>
+                    </p>
+                </div>
+            </div>
+        </a>
+    </div>
+    {% empty %}
+    <p>No products found.</p>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block title %}Product List{% endblock %}
+
+{% block content %}
+<!-- Space below navbar -->
+<div class="mt-5"></div>
+
+<!-- Title with spacing -->
+<h2 class="mt-4 mb-5 pt-4" style="color: rgb(187, 44, 44);">
+    {% if region %}
+        Products from {{ region.name }}
+    {% elif category %}
+        Products in {{ category.name }}
+    {% else %}
+        Available Products
+    {% endif %}
+</h2>
+
+
+<div class="row">
+    {% for product in products %}
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+        <a href="{% url 'product_detail' product.id %}" 
+           class="text-decoration-none text-dark" 
+           style="display: block;">
+        <div class="card shadow-sm h-100" style="height: 250px; margin: 5px;">
+            <img src="{{ product.image.url }}" 
+                 class="card-img-top" 
+                 alt="{{ product.name }}" 
+                 style="height: 120px; object-fit: cover;">
+            <div class="card-body p-2">
+                <h6 class="card-title text-truncate">{{ product.name }}</h6>
+                <p class="mb-1 text-dark small">₹{{ product.price }}</p>
+                <p class="mb-0 text-dark small">Seller: {{ product.seller.user.username }}</p>
+                <p class="mb-0 small d-flex align-items-center">
+                    <span class="rating-stars">
+                        {% for i in "12345" %}
+                            {% if forloop.counter <= product.seller.rating %}
+                                <span class="star full"></span>
+                            {% elif forloop.counter|add:"-1" < product.seller.rating %}
+                                <span class="star half"></span>
+                            {% else %}
+                                <span class="star empty"></span>
+                            {% endif %}
+                        {% endfor %}
+                    </span>
+                    <span class="text-muted small ms-1">({{ product.seller.rating|floatformat:1 }})</span>
+                </p>
+
+
+            </div>
+        </div>
+        </a>
+    </div>
+    {% empty %}
+    <p>No products available.</p>
+    {% endfor %}
+</div>
+{% endblock %}

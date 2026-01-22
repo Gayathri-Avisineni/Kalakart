@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KalaKart - {{ seller.user.username }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6 font-sans">
+  <div class="max-w-6xl mx-auto">
+
+    <!-- Single Card: Profile + Products -->
+    <div class="bg-white p-6 rounded-lg shadow space-y-8">
+
+      <!-- Seller Profile Centered -->
+      <div class="flex flex-col items-center space-y-4">
+        <!-- Seller Image -->
+        {% if seller.profile_picture %}
+        <img 
+          src="{{ seller.profile_picture.url }}" 
+          alt="Seller" 
+          class="w-32 h-32 object-cover rounded-full border-4 border-orange-500" 
+        />
+        {% else %}
+        <div class="w-32 h-32 rounded-full border-4 border-orange-500 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-full h-full text-orange-500 p-4">
+            <circle cx="256" cy="256" r="256" fill="currentColor"/>
+            <path fill="#ffffff" d="M256 96c35.346 0 64 28.654 64 64s-28.654 64-64 64-64-28.654-64-64 28.654-64 64-64zm0 352c-52.935 0-100.374-25.616-128-64 1.758-42.667 85.333-66.167 128-66.167s126.242 23.5 128 66.167c-27.626 38.384-75.065 64-128 64z"/>
+          </svg>
+        </div>
+        {% endif %}
+
+        <!-- Seller Details -->
+        <h1 class="text-2xl font-bold text-orange-600">{{ seller.user.username }}</h1>
+        <p class="text-gray-600 text-center">{{ seller.bio }}</p>
+        <div class="flex space-x-6 mt-2 text-gray-700 text-sm md:text-base">
+          <span>{{ products.count }} Products</span>
+        </div>
+      </div>
+
+      <!-- Seller Products -->
+      <div>
+        <h2 class="text-xl font-bold mb-4 text-orange-600 text-center">Products by {{ seller.user.username }}</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {% for product in products %}
+          <div class="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+            <a href="{% url 'product_detail' product.id %}">
+              <img src="{{ product.image.url }}" alt="{{ product.name }}" class="w-full h-40 object-cover" />
+              <div class="p-3">
+                <h3 class="font-semibold">{{ product.name }}</h3>
+                <p class="text-orange-500 font-bold">₹{{ product.price }}</p>
+              </div>
+            </a>
+          </div>
+          {% empty %}
+          <p class="text-center col-span-full">No products available.</p>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

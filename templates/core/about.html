@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About & Contact - KalaKart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom orange color */
+    .brand-orange { color: #FF6600; }
+    .bg-brand-orange { background-color: #FF6600; }
+    .bg-brand-orange-light { background-color: #FFE6CC; }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Hero Section -->
+  <section class="bg-brand-orange-light py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold brand-orange mb-4">About KalaKart</h2>
+      <p class="text-gray-700 text-lg sm:text-xl max-w-2xl mx-auto">
+        KalaKart is your go-to platform for discovering and supporting talented artisans from rural areas.  
+        We bring handmade, region-specific products directly to your doorstep, helping preserve culture and promote local talent.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission / Vision / Values Section -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Mission -->
+      <div class="bg-white rounded-lg shadow p-6 text-center">
+        <div class="brand-orange mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2v2m0 16v2m10-10h-2M4 12H2m15.364-6.364l-1.414 1.414M6.05 17.95l-1.414 1.414m0-13.364l1.414 1.414M17.95 17.95l1.414 1.414"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Our Mission</h3>
+        <p class="text-gray-600">To empower rural artisans by providing a platform to sell their handmade products and promote their culture.</p>
+      </div>
+
+      <!-- Vision -->
+      <div class="bg-white rounded-lg shadow p-6 text-center">
+        <div class="brand-orange mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.5V12l3 3m6 3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Our Vision</h3>
+        <p class="text-gray-600">To be the largest online marketplace for handmade and region-based products, connecting talent to customers worldwide.</p>
+      </div>
+
+      <!-- Values -->
+      <div class="bg-white rounded-lg shadow p-6 text-center">
+        <div class="brand-orange mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Our Values</h3>
+        <p class="text-gray-600">Integrity, quality, and support for local communities are at the heart of everything we do.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="bg-brand-orange-light py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold brand-orange text-center mb-8">Contact Us</h2>
+
+      <div class="bg-white rounded-lg shadow p-8 space-y-6 text-gray-700">
+        <div class="flex items-center gap-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 brand-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H8m0 0l4 4m0-4l-4-4"/>
+          </svg>
+          <span>Email: <a href="mailto:support@kalakart.com" class="brand-orange hover:underline">supportkalakart@gmail.com</a></span>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 brand-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h2l.4 2M7 7h10l1 5H6L7 7zm1 5h8m-9 4h10m-5-4v4"/>
+          </svg>
+          <span>Phone: <a href="tel:+916309242479" class="brand-orange hover:underline">+91 6309242479</a></span>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 brand-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13 21l-4.657-4.657a8 8 0 1111.314 0z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+          </svg>
+          <span>Address: 123, Artisan Street, Village Town, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+</html>
+
+{% endblock %}

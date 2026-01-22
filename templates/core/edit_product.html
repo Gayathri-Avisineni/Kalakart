@@ -1,0 +1,151 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Product</title>
+  <style>
+    :root {
+      --primary: #00796b;
+      --accent: #00bcd4;
+      --light: #f9f9fb;
+      --white: #fff;
+      --text-dark: #333;
+      --text-light: #666;
+      --radius: 12px;
+      --shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; }
+
+    body {
+      background: var(--light);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: var(--text-dark);
+    }
+
+    .form-container {
+      background: var(--white);
+      padding: 40px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: var(--primary);
+    }
+
+    .product-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .product-image img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 3px solid var(--accent);
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      font-size: 0.95rem;
+      transition: border 0.2s;
+    }
+
+    input:focus, textarea:focus, select:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    .submit-btn, .cancel-btn {
+      width: 100%;
+      border: none;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: 500;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+
+    .submit-btn {
+      background: var(--primary);
+      color: white;
+    }
+
+    .submit-btn:hover { background: #005b4f; }
+
+    .cancel-btn {
+      background: var(--accent);
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+    }
+
+    .cancel-btn:hover { background: #0097a7; }
+
+    @media (max-width: 480px) {
+      .form-container { width: 90%; padding: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <form class="form-container" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <h2>Edit Product</h2>
+
+    <div class="product-image">
+      {% if product.image %}
+        <img id="preview" src="{{ product.image.url }}" alt="{{ product.name }}">
+      {% else %}
+        <img id="preview" src="https://via.placeholder.com/120" alt="Product Image">
+      {% endif %}
+    </div>
+
+    {{ form.as_p }}
+
+    <button type="submit" class="submit-btn">Save Changes</button>
+    <a href="{% url 'seller_profile' seller_id=request.user.sellerprofile.id %}" class="cancel-btn">Cancel</a>
+  </form>
+
+  <script>
+    const uploadInput = document.querySelector('input[name="image"]');
+    const preview = document.getElementById('preview');
+
+    if (uploadInput) {
+      uploadInput.addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = function(e) { preview.src = e.target.result; }
+          reader.readAsDataURL(file);
+        }
+      });
+    }
+  </script>
+
+<script>
+  // Replace edit page in history after load
+  if (window.history && window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+  }
+</script>
+
+</body>
+</html>

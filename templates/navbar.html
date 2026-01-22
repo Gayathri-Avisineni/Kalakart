@@ -1,0 +1,96 @@
+
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-custom text-white fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white brand" href="#">KALAKART</a>
+
+    <!-- Toggler button for mobile -->
+    <button class="navbar-toggler text-white border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      
+      <!-- Search bar -->
+      <form class="flex-grow-1 mx-3" method="get" action="{% url 'search_products' %}">
+          <div class="search-input-group">
+            <i class="bi bi-search"></i>
+            <input type="text" class="form-control" name="q" placeholder="Search arts or places..." />
+          </div>
+      </form>
+
+
+      <!-- Nav links -->
+      <ul class="navbar-nav ms-auto d-flex flex-row align-items-center gap-3">
+        <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+        <li class="nav-item position-relative">
+          <a class="nav-link text-white fs-5" href="{% url 'view_cart' %}">
+            <i class="bi bi-cart-fill position-relative" id="cart-icon"></i>
+            {% if cart_count > 0 %}
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                {{ cart_count }}
+              </span>
+            {% endif %}
+          </a>
+        </li>
+
+        <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-white fs-5" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      {% if user.is_authenticated and user.userprofile.profile_picture %}
+        <img src="{{ user.userprofile.profile_picture.url }}" class="rounded-circle" width="30" height="30" />
+      {% else %}
+        <span class="text-white fs-5"><i class="bi bi-person-circle"></i></span>
+      {% endif %}
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+      {% if user.is_authenticated %}
+        <li class="dropdown-item-text">
+          <strong>{{ request.user.username }}</strong><br>
+          {{ request.user.email }}
+        </li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="{% url 'my_profile' %}">My Profile</a></li>
+        <li><a class="dropdown-item" href="{% url 'my_orders' %}">Orders</a></li>
+        <li><a class="dropdown-item" href="{% url 'logout' %}">Logout</a></li>
+      {% else %}
+        <li><a class="dropdown-item" href="{% url 'login' %}">Login</a></li>
+        <li><a class="dropdown-item" href="{% url 'register' %}">Signup</a></li>
+      {% endif %}
+    </ul>
+  </li>
+
+      </ul>
+        
+
+      <!-- Auth buttons 
+       <div class="d-flex gap-2 login">
+        <a href="{% url 'login' %}"  class="btn btn-custom">Login</a>
+       <a href="{% url 'register' %}"  class="btn btn-custom">Signup</a>
+      </div> -->
+  </div>
+</nav>
+
+<!-- <section class="art-categories">
+  <a href="#">Embroidery Arts</a>
+  <a href="#">Clay Arts</a>
+  <a href="#">Knitting</a>
+  <a href="#">Painting</a>
+  <a href="#">Wall Arts</a>
+  <a href="#">Marble Arts</a>
+  <a href="#">Handicrafts</a>
+  <a href="#">Jewelry</a>
+  <a href="#">Bags</a>
+  <a href="#">Clothing</a>
+  <a href="#">Footwear</a>
+  <a href="#">Toys</a>
+  <a href="#">Home Decor</a>
+</section> -->
+
+<section class="art-categories">
+  {% for category in categories %}
+    <a href="{% url 'product_by_category' category.id %}">{{ category.name }}</a>
+  {% endfor %}
+</section>
+

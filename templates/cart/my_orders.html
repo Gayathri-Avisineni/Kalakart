@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="container mt-4">
+  <h2 class="mb-4">My Orders</h2>
+
+  {% if orders %}
+    {% for order in orders %}
+      <div class="card mb-4 shadow-sm p-3 rounded">
+        <div class="d-flex justify-content-between">
+          <div>
+            <h5>Order #{{ order.id }}</h5>
+            <p><strong>Placed on:</strong> {{ order.created_at|date:"M d, Y" }}</p>
+            <p><strong>Payment:</strong> {{ order.payment_method }}</p>
+            <p><strong>Status:</strong> {{ order.status }}</p>
+          </div>
+          <div class="text-end">
+            <p><strong>Total:</strong> ₹{{ order.total }}</p>
+            <a href="{% url 'order_detail' order.id %}" class="btn btn-outline-primary btn-sm">View Details</a>
+          </div>
+        </div>
+
+        <hr>
+
+        {% for item in order.items.all %}
+          <div class="d-flex align-items-center mb-3">
+             <a href="{% url 'product_detail' item.product.id %}">
+                   <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" width="70" height="70" class="me-3 rounded">
+              </a>
+      
+            <div>
+              <h6>{{ item.product.name }}</h6>
+              <p>Qty: {{ item.quantity }} | Price: ₹{{ item.price }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>You haven't placed any orders yet.</p>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,142 @@
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Product</title>
+  <style>
+    :root {
+      --primary: #00796b;
+      --accent: #00bcd4;
+      --light: #f9f9fb;
+      --white: #fff;
+      --text-dark: #333;
+      --text-light: #666;
+      --radius: 12px;
+      --shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; }
+    body { background: var(--light); color: var(--text-dark); display: flex; justify-content: center; align-items: flex-start; min-height: 100vh; padding: 40px 20px; }
+    .container { background: var(--white); padding: 30px 40px; border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; max-width: 600px; }
+    h2 { text-align: center; margin-bottom: 25px; color: var(--primary); }
+    label { display: block; margin-top: 10px; font-weight: 500; color: var(--text-dark); }
+    input, textarea, select {
+      width: 100%; padding: 10px; margin-top: 5px; border-radius: 8px;
+      border: 1px solid #ddd; font-size: 0.95rem;
+    }
+    input:focus, textarea:focus, select:focus { border-color: var(--accent); outline: none; }
+    textarea { resize: none; height: 80px; }
+    .upload-btn { display: inline-block; background: var(--accent); color: white; border: none;
+      padding: 8px 15px; border-radius: 20px; cursor: pointer; transition: background 0.3s; margin-top: 10px;
+    }
+    .upload-btn:hover { background: #0097a7; }
+    .image-preview { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+    .preview-box { position: relative; }
+    .preview-box img {
+      width: 90px; height: 90px; border-radius: 10px; object-fit: cover;
+      border: 2px solid #ddd; box-shadow: var(--shadow);
+    }
+    .remove-btn {
+      position: absolute; top: -6px; right: -6px;
+      background: #ff4444; color: white; border: none;
+      border-radius: 50%; width: 22px; height: 22px;
+      font-size: 14px; line-height: 22px; text-align: center;
+      cursor: pointer; transition: background 0.2s;
+    }
+    .remove-btn:hover { background: #d93636; }
+    .submit-btn {
+      width: 100%; background: var(--primary); color: white; border: none;
+      padding: 12px; font-size: 1rem; font-weight: 500; border-radius: 25px;
+      cursor: pointer; margin-top: 25px; transition: background 0.3s;
+    }
+    .submit-btn:hover { background: #005b4f; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Add Product</h2>
+
+    <form method="POST" enctype="multipart/form-data" id="productForm">
+      {% csrf_token %}
+      {{ form.non_field_errors }}
+
+      <label for="id_name">Product Name</label>
+      {{ form.name }}
+
+      <label for="id_price">Price (₹)</label>
+      {{ form.price }}
+
+      <label for="id_mrp">MRP (₹)</label>
+      {{ form.mrp }}
+
+      <label for="id_description">Description</label>
+      {{ form.description }}
+
+      <label for="id_material">Material</label>
+      {{ form.material }}
+
+      <label for="id_color">Color</label>
+      {{ form.color }}
+
+      <label for="id_quantity">Quantity</label>
+      {{ form.quantity }}
+
+      <label for="id_category">Category</label>
+      {{ form.category }}
+
+      <label for="id_region">Region</label>
+      {{ form.region }}
+
+      <label>Main Image</label>
+      {{ form.image }}
+
+      <label>Upload More Images</label>
+      <input type="file" id="productImages" name="extra_images" accept="image/*" multiple style="display: none;">
+      <button type="button" class="upload-btn" onclick="document.getElementById('productImages').click()">Add Images</button>
+      <div id="imagePreview" class="image-preview"></div>
+
+      <button type="submit" class="submit-btn">Save Product</button>
+    </form>
+  </div>
+
+  <script>
+    const imageInput = document.getElementById('productImages');
+    const imagePreview = document.getElementById('imagePreview');
+    let imageFiles = [];
+
+    imageInput.addEventListener('change', (e) => {
+      const files = Array.from(e.target.files);
+      files.forEach(file => {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          const div = document.createElement('div');
+          div.classList.add('preview-box');
+          div.innerHTML = `
+            <img src="${event.target.result}" alt="Product Image">
+            <button type="button" class="remove-btn">&times;</button>
+          `;
+          imagePreview.appendChild(div);
+          div.querySelector('.remove-btn').addEventListener('click', () => {
+            div.remove();
+            imageFiles = imageFiles.filter(f => f !== file);
+          });
+        };
+        reader.readAsDataURL(file);
+        imageFiles.push(file);
+      });
+    });
+  </script>
+
+  <script>
+  // Replace edit page in history after load
+  if (window.history && window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+  }
+</script>
+</html>
+{% endblock %}

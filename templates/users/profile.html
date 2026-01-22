@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <h2>{{ request.user.username }}'s Profile</h2>
+    
+    {% if user_profile.profile_pic %}
+        <img src="{{ user_profile.profile_pic.url }}" alt="Profile Pic" width="150">
+    {% else %}
+        <p>No profile picture. Showing default.</p>
+    {% endif %}
+
+    <p>Email: {{ request.user.email }}</p>
+    <a href="{% url 'logout' %}">Logout</a>
+</body>
+</html>

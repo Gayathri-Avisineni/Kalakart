@@ -1,0 +1,18 @@
+<!-- order_success.html -->
+{% extends 'base.html' %}
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="text-center">
+        <h2 class="text-success mb-4">🎉 Your order has been placed successfully!</h2>
+        <a href="{% url 'product_list' %}" class="btn btn-primary mt-3">Continue Shopping</a>
+    </div>
+</div>
+
+<script>
+  // Replace edit page in history after load
+  if (window.history && window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+  }
+</script>
+{% endblock %}
+

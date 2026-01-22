@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <h3>Order #{{ order.id }}</h3>
+  <p><strong>Date:</strong> {{ order.created_at|date:"M d, Y H:i" }}</p>
+  <p><strong>Address:</strong> {{ order.address.full_name }}, {{ order.address.city }}</p>
+  <p><strong>Payment:</strong> {{ order.payment_method }}</p>
+  <p><strong>Status:</strong> {{ order.status }}</p>
+  <hr>
+
+  {% for item in order.items.all %}
+  <div class="d-flex align-items-center mb-3">
+    <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" width="80" height="80" class="me-3 rounded">
+    <div>
+      <h6>{{ item.product.name }}</h6>
+      <p>Qty: {{ item.quantity }}</p>
+      <p>Price: ₹{{ item.price }}</p>
+
+      {% if order.status == "Delivered" %}
+        <a href="{% url 'add_review' order.id %}" class="btn btn-outline-success btn-sm">Rate Product</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
