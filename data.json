@@ -1,5 +1,1137 @@
 [
 {
+  "model": "core.sellerprofile",
+  "pk": 1,
+  "fields": {
+    "user": 6,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "an artist of handmade knitting items",
+    "profile_picture": "profile_pics/handbag.jpeg",
+    "rating": 4.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 2,
+  "fields": {
+    "user": 5,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "kalamkari artist",
+    "profile_picture": "profile_pics/kalamkarisaree.jpeg",
+    "rating": 5.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "full_name": "gayathri",
+    "store_name": "kala_store",
+    "location": "chimakurthy",
+    "bio": "painter",
+    "profile_picture": "profile_pics/painting.jpeg",
+    "rating": 5.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "a professional wall artist",
+    "profile_picture": "profile_pics/wallart.jpeg",
+    "rating": 5.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 5,
+  "fields": {
+    "user": 7,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "clay artist",
+    "profile_picture": "profile_pics/claylamp.jpeg",
+    "rating": 4.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 6,
+  "fields": {
+    "user": 9,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "marble artist",
+    "profile_picture": "profile_pics/marbleart.jpeg",
+    "rating": 4.5
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 7,
+  "fields": {
+    "user": 13,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 8,
+  "fields": {
+    "user": 11,
+    "full_name": "durga",
+    "store_name": "durga_store",
+    "location": "ongole",
+    "bio": "local artist",
+    "profile_picture": "profile_pics/Creativity_Inc.jpg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 9,
+  "fields": {
+    "user": 14,
+    "full_name": "pavani dontula",
+    "store_name": "pavani_store",
+    "location": "ong",
+    "bio": "saree lover",
+    "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 10,
+  "fields": {
+    "user": 20,
+    "full_name": "priyanka",
+    "store_name": "priya_made",
+    "location": "chirala",
+    "bio": "",
+    "profile_picture": "profile_pics/images.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 11,
+  "fields": {
+    "user": 21,
+    "full_name": "vijayalakshmi",
+    "store_name": "vijaya_arts",
+    "location": "chimakurthy",
+    "bio": "made with pure sandlewood",
+    "profile_picture": "profile_pics/wooden_ganesh.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 12,
+  "fields": {
+    "user": 23,
+    "full_name": "thulasi_kalva",
+    "store_name": "thulasi_store",
+    "location": "ongole",
+    "bio": "",
+    "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834_mHEwR3B.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 13,
+  "fields": {
+    "user": 24,
+    "full_name": "pavani dontula",
+    "store_name": "pavanistore",
+    "location": "ong",
+    "bio": "",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 14,
+  "fields": {
+    "user": 25,
+    "full_name": "ganesh",
+    "store_name": "text",
+    "location": "ongole",
+    "bio": "nothing",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 15,
+  "fields": {
+    "user": 22,
+    "full_name": "pavani dontula",
+    "store_name": "pavanistoree",
+    "location": "ongole",
+    "bio": "",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.category",
+  "pk": 1,
+  "fields": {
+    "name": "knitting"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 2,
+  "fields": {
+    "name": "clothing"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 3,
+  "fields": {
+    "name": "painting"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 4,
+  "fields": {
+    "name": "wall art"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 5,
+  "fields": {
+    "name": "clay arts"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 6,
+  "fields": {
+    "name": "marble arts"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 7,
+  "fields": {
+    "name": "wooden art"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 8,
+  "fields": {
+    "name": "Embroidery"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 9,
+  "fields": {
+    "name": "Jewelry"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 10,
+  "fields": {
+    "name": "Handloom"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 11,
+  "fields": {
+    "name": "Metal Crafts"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 12,
+  "fields": {
+    "name": "Sculpture"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 1,
+  "fields": {
+    "name": "Andhra Pradesh",
+    "image": "region_images/andhrapradesh.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 2,
+  "fields": {
+    "name": "Tamilnadu",
+    "image": "region_images/tamilnadu.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 3,
+  "fields": {
+    "name": "Karnataka",
+    "image": "region_images/karnataka.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 4,
+  "fields": {
+    "name": "Telangana",
+    "image": "region_images/telangana.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 5,
+  "fields": {
+    "name": "Maharashtra",
+    "image": "region_images/maharastra.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 6,
+  "fields": {
+    "name": "kerala",
+    "image": "region_images/kerala.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 7,
+  "fields": {
+    "name": "Gujarat",
+    "image": "region_images/gujarat.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 8,
+  "fields": {
+    "name": "WestBengal",
+    "image": "region_images/westbengal.jpeg"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 1,
+  "fields": {
+    "seller": 1,
+    "name": "handbag",
+    "description": "a handmade knitted woollen handbag",
+    "price": "599.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/handbag.jpeg",
+    "category": 1,
+    "region": 3,
+    "created_at": "2025-08-13T16:47:46.057Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 2,
+  "fields": {
+    "seller": 2,
+    "name": "kalamakari saree",
+    "description": "a kalamkari handpanited saree",
+    "price": "1399.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/kalamkarisaree.jpeg",
+    "category": 2,
+    "region": 1,
+    "created_at": "2025-08-13T17:08:07.165Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 3,
+  "fields": {
+    "seller": 3,
+    "name": "buddha painting",
+    "description": "a painting of buddha",
+    "price": "2000.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/painting.jpeg",
+    "category": 3,
+    "region": 7,
+    "created_at": "2025-08-13T17:09:13.705Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 4,
+  "fields": {
+    "seller": 4,
+    "name": "ganapathi wall art",
+    "description": "a beautiful modern wall art",
+    "price": "700.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/wallart.jpeg",
+    "category": 4,
+    "region": 5,
+    "created_at": "2025-08-13T17:12:09.587Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 5,
+  "fields": {
+    "seller": 5,
+    "name": "clay lamp",
+    "description": "handmade clay lamp",
+    "price": "90.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/claylamp.jpeg",
+    "category": 5,
+    "region": 1,
+    "created_at": "2025-08-13T17:19:27.092Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 6,
+  "fields": {
+    "seller": 6,
+    "name": "flower vas",
+    "description": "a beautiful marble art",
+    "price": "1599.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/marbleart.jpeg",
+    "category": 6,
+    "region": 8,
+    "created_at": "2025-08-13T17:21:13.742Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 7,
+  "fields": {
+    "seller": 1,
+    "name": "hat",
+    "description": "handmade knitted hat",
+    "price": "499.00",
+    "mrp": null,
+    "material": "woolen",
+    "color": "light pink",
+    "quantity": "1",
+    "image": "product_images/hat.jpeg",
+    "category": 1,
+    "region": 6,
+    "created_at": "2025-08-13T17:22:09.067Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 8,
+  "fields": {
+    "seller": 1,
+    "name": "wooden kitchen items",
+    "description": "handcrafted wooden kitchen items",
+    "price": "600.00",
+    "mrp": null,
+    "material": "wooden",
+    "color": "brown",
+    "quantity": "1",
+    "image": "product_images/woodenart.jpeg",
+    "category": 7,
+    "region": 2,
+    "created_at": "2025-08-14T08:45:49.076Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 9,
+  "fields": {
+    "seller": 2,
+    "name": "terracotpot",
+    "description": "a handmade terracotpot",
+    "price": "599.00",
+    "mrp": null,
+    "material": "clay",
+    "color": "reddish brown",
+    "quantity": "1",
+    "image": "product_images/terracot1.jpg",
+    "category": 5,
+    "region": 1,
+    "created_at": "2025-08-14T09:19:32.405Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 10,
+  "fields": {
+    "seller": 1,
+    "name": "elephant  clay doll",
+    "description": "beautiful handmade elephant with clay",
+    "price": "500.00",
+    "mrp": null,
+    "material": "clay",
+    "color": "brown",
+    "quantity": "1",
+    "image": "product_images/westbengal.jpeg",
+    "category": 5,
+    "region": 4,
+    "created_at": "2025-08-22T04:54:57.913Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 11,
+  "fields": {
+    "seller": 9,
+    "name": "pattu saree",
+    "description": "hand weaved pure pattu",
+    "price": "2200.00",
+    "mrp": "2400.00",
+    "material": "pattu",
+    "color": "gold and pink",
+    "quantity": "1",
+    "image": "product_images/pattusaree.jpeg",
+    "category": 2,
+    "region": 2,
+    "created_at": "2025-10-21T14:05:09.950Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 13,
+  "fields": {
+    "seller": 9,
+    "name": "kanchipattu saree",
+    "description": "pure kanichipattu saree",
+    "price": "3000.00",
+    "mrp": "3500.00",
+    "material": "kanchipattu",
+    "color": "violet",
+    "quantity": "1",
+    "image": "product_images/kanchipattusaree.jpeg",
+    "category": 2,
+    "region": 2,
+    "created_at": "2025-10-21T14:11:21.527Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 14,
+  "fields": {
+    "seller": 10,
+    "name": "stone saraswathi idol",
+    "description": "white stone hand made idol",
+    "price": "999.00",
+    "mrp": "1100.00",
+    "material": "stone",
+    "color": "white",
+    "quantity": "1",
+    "image": "product_images/stoneart.jpeg",
+    "category": 6,
+    "region": 3,
+    "created_at": "2025-10-22T05:38:56.341Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 15,
+  "fields": {
+    "seller": 11,
+    "name": "sandlewood ganesh",
+    "description": "pure sandlewood and waterproof",
+    "price": "350.00",
+    "mrp": "400.00",
+    "material": "wooden",
+    "color": "sandle",
+    "quantity": "4",
+    "image": "product_images/wooden_ganesh.jpeg",
+    "category": 7,
+    "region": 1,
+    "created_at": "2025-10-22T05:59:35.111Z"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": 5,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 4,
+  "fields": {
+    "user": 6,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-21T05:04:21.436Z",
+    "gender": "Female",
+    "account_type": "Seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 5,
+  "fields": {
+    "user": 7,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 6,
+  "fields": {
+    "user": 8,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Male",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 7,
+  "fields": {
+    "user": 10,
+    "phone": "9553637008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 8,
+  "fields": {
+    "user": 11,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 9,
+  "fields": {
+    "user": 12,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 10,
+  "fields": {
+    "user": 13,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "phone": null,
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": null,
+    "account_type": null
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 12,
+  "fields": {
+    "user": 2,
+    "phone": "8309836008",
+    "address": "",
+    "profile_picture": "profile_pics/download_TF7ofQm.jpeg",
+    "updated_at": "2025-11-14T16:24:37.872Z",
+    "gender": null,
+    "account_type": null
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 13,
+  "fields": {
+    "user": 9,
+    "phone": null,
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": null,
+    "account_type": null
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 14,
+  "fields": {
+    "user": 14,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "profile_pics/download_FewUmbq.jpeg",
+    "updated_at": "2025-10-21T13:54:56.733Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 15,
+  "fields": {
+    "user": 15,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T04:56:12.356Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 16,
+  "fields": {
+    "user": 16,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T04:59:34.933Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 17,
+  "fields": {
+    "user": 17,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:09:09.587Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 18,
+  "fields": {
+    "user": 18,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:13:53.800Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 19,
+  "fields": {
+    "user": 19,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:21:26.134Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 20,
+  "fields": {
+    "user": 20,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:25:30.638Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 21,
+  "fields": {
+    "user": 21,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:46:26.608Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 22,
+  "fields": {
+    "user": 22,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T09:35:18.189Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 23,
+  "fields": {
+    "user": 23,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T08:45:22.666Z",
+    "gender": "female",
+    "account_type": "seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 24,
+  "fields": {
+    "user": 24,
+    "phone": "8309835597",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T09:09:31.514Z",
+    "gender": "male",
+    "account_type": "seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 25,
+  "fields": {
+    "user": 25,
+    "phone": "134567",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T09:21:22.520Z",
+    "gender": "male",
+    "account_type": "seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 26,
+  "fields": {
+    "user": 26,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-27T10:21:21.519Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 27,
+  "fields": {
+    "user": 27,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-11-15T04:48:29.418Z",
+    "gender": "male",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 28,
+  "fields": {
+    "user": 28,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-11-15T04:50:01.207Z",
+    "gender": "male",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 29,
+  "fields": {
+    "user": 29,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2026-05-23T11:36:24.178Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 1,
+  "fields": {
+    "user": 14,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 2,
+  "fields": {
+    "user": 15,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 3,
+  "fields": {
+    "user": 16,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 4,
+  "fields": {
+    "user": 17,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 5,
+  "fields": {
+    "user": 18,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 6,
+  "fields": {
+    "user": 19,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 7,
+  "fields": {
+    "user": 20,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 8,
+  "fields": {
+    "user": 21,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 9,
+  "fields": {
+    "user": 22,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 10,
+  "fields": {
+    "user": 23,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 11,
+  "fields": {
+    "user": 24,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 12,
+  "fields": {
+    "user": 25,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 13,
+  "fields": {
+    "user": 26,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 14,
+  "fields": {
+    "user": 27,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 15,
+  "fields": {
+    "user": 28,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 16,
+  "fields": {
+    "user": 29,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
   "model": "cart.cart",
   "pk": 65,
   "fields": {
@@ -1610,1138 +2742,6 @@
     "quantity": 1,
     "price": "2200.00",
     "subtotal": "2200.00"
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 1,
-  "fields": {
-    "user": 6,
-    "full_name": "",
-    "store_name": "",
-    "location": "",
-    "bio": "an artist of handmade knitting items",
-    "profile_picture": "profile_pics/handbag.jpeg",
-    "rating": 4.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 2,
-  "fields": {
-    "user": 5,
-    "full_name": "",
-    "store_name": "",
-    "location": "",
-    "bio": "kalamkari artist",
-    "profile_picture": "profile_pics/kalamkarisaree.jpeg",
-    "rating": 5.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 3,
-  "fields": {
-    "user": 2,
-    "full_name": "gayathri",
-    "store_name": "kala_store",
-    "location": "chimakurthy",
-    "bio": "painter",
-    "profile_picture": "profile_pics/painting.jpeg",
-    "rating": 5.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 4,
-  "fields": {
-    "user": 4,
-    "full_name": "",
-    "store_name": "",
-    "location": "",
-    "bio": "a professional wall artist",
-    "profile_picture": "profile_pics/wallart.jpeg",
-    "rating": 5.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 5,
-  "fields": {
-    "user": 7,
-    "full_name": "",
-    "store_name": "",
-    "location": "",
-    "bio": "clay artist",
-    "profile_picture": "profile_pics/claylamp.jpeg",
-    "rating": 4.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 6,
-  "fields": {
-    "user": 9,
-    "full_name": "",
-    "store_name": "",
-    "location": "",
-    "bio": "marble artist",
-    "profile_picture": "profile_pics/marbleart.jpeg",
-    "rating": 4.5
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 7,
-  "fields": {
-    "user": 13,
-    "full_name": "",
-    "store_name": "",
-    "location": "",
-    "bio": "",
-    "profile_picture": "",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 8,
-  "fields": {
-    "user": 11,
-    "full_name": "durga",
-    "store_name": "durga_store",
-    "location": "ongole",
-    "bio": "local artist",
-    "profile_picture": "profile_pics/Creativity_Inc.jpg",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 9,
-  "fields": {
-    "user": 14,
-    "full_name": "pavani dontula",
-    "store_name": "pavani_store",
-    "location": "ong",
-    "bio": "saree lover",
-    "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834.jpeg",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 10,
-  "fields": {
-    "user": 20,
-    "full_name": "priyanka",
-    "store_name": "priya_made",
-    "location": "chirala",
-    "bio": "",
-    "profile_picture": "profile_pics/images.jpeg",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 11,
-  "fields": {
-    "user": 21,
-    "full_name": "vijayalakshmi",
-    "store_name": "vijaya_arts",
-    "location": "chimakurthy",
-    "bio": "made with pure sandlewood",
-    "profile_picture": "profile_pics/wooden_ganesh.jpeg",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 12,
-  "fields": {
-    "user": 23,
-    "full_name": "thulasi_kalva",
-    "store_name": "thulasi_store",
-    "location": "ongole",
-    "bio": "",
-    "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834_mHEwR3B.jpeg",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 13,
-  "fields": {
-    "user": 24,
-    "full_name": "pavani dontula",
-    "store_name": "pavanistore",
-    "location": "ong",
-    "bio": "",
-    "profile_picture": "",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 14,
-  "fields": {
-    "user": 25,
-    "full_name": "ganesh",
-    "store_name": "text",
-    "location": "ongole",
-    "bio": "nothing",
-    "profile_picture": "",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.sellerprofile",
-  "pk": 15,
-  "fields": {
-    "user": 22,
-    "full_name": "pavani dontula",
-    "store_name": "pavanistoree",
-    "location": "ongole",
-    "bio": "",
-    "profile_picture": "",
-    "rating": 0.0
-  }
-},
-{
-  "model": "core.category",
-  "pk": 1,
-  "fields": {
-    "name": "knitting"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 2,
-  "fields": {
-    "name": "clothing"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 3,
-  "fields": {
-    "name": "painting"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 4,
-  "fields": {
-    "name": "wall art"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 5,
-  "fields": {
-    "name": "clay arts"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 6,
-  "fields": {
-    "name": "marble arts"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 7,
-  "fields": {
-    "name": "wooden art"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 8,
-  "fields": {
-    "name": "Embroidery"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 9,
-  "fields": {
-    "name": "Jewelry"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 10,
-  "fields": {
-    "name": "Handloom"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 11,
-  "fields": {
-    "name": "Metal Crafts"
-  }
-},
-{
-  "model": "core.category",
-  "pk": 12,
-  "fields": {
-    "name": "Sculpture"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 1,
-  "fields": {
-    "name": "Andhra Pradesh",
-    "image": "region_images/andhrapradesh.jpeg"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 2,
-  "fields": {
-    "name": "Tamilnadu",
-    "image": "region_images/tamilnadu.jpeg"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 3,
-  "fields": {
-    "name": "Karnataka",
-    "image": "region_images/karnataka.jpeg"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 4,
-  "fields": {
-    "name": "Telangana",
-    "image": "region_images/telangana.jpeg"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 5,
-  "fields": {
-    "name": "Maharashtra",
-    "image": "region_images/maharastra.jpeg"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 6,
-  "fields": {
-    "name": "kerala",
-    "image": "region_images/kerala.jpeg"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 7,
-  "fields": {
-    "name": "Gujarat",
-    "image": "region_images/gujarat.jpeg"
-  }
-},
-{
-  "model": "core.region",
-  "pk": 8,
-  "fields": {
-    "name": "WestBengal",
-    "image": "region_images/westbengal.jpeg"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 1,
-  "fields": {
-    "seller": 1,
-    "name": "handbag",
-    "description": "a handmade knitted woollen handbag",
-    "price": "599.00",
-    "mrp": null,
-    "material": null,
-    "color": null,
-    "quantity": null,
-    "image": "product_images/handbag.jpeg",
-    "category": 1,
-    "region": 3,
-    "created_at": "2025-08-13T16:47:46.057Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 2,
-  "fields": {
-    "seller": 2,
-    "name": "kalamakari saree",
-    "description": "a kalamkari handpanited saree",
-    "price": "1399.00",
-    "mrp": null,
-    "material": null,
-    "color": null,
-    "quantity": null,
-    "image": "product_images/kalamkarisaree.jpeg",
-    "category": 2,
-    "region": 1,
-    "created_at": "2025-08-13T17:08:07.165Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 3,
-  "fields": {
-    "seller": 3,
-    "name": "buddha painting",
-    "description": "a painting of buddha",
-    "price": "2000.00",
-    "mrp": null,
-    "material": null,
-    "color": null,
-    "quantity": null,
-    "image": "product_images/painting.jpeg",
-    "category": 3,
-    "region": 7,
-    "created_at": "2025-08-13T17:09:13.705Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 4,
-  "fields": {
-    "seller": 4,
-    "name": "ganapathi wall art",
-    "description": "a beautiful modern wall art",
-    "price": "700.00",
-    "mrp": null,
-    "material": null,
-    "color": null,
-    "quantity": null,
-    "image": "product_images/wallart.jpeg",
-    "category": 4,
-    "region": 5,
-    "created_at": "2025-08-13T17:12:09.587Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 5,
-  "fields": {
-    "seller": 5,
-    "name": "clay lamp",
-    "description": "handmade clay lamp",
-    "price": "90.00",
-    "mrp": null,
-    "material": null,
-    "color": null,
-    "quantity": null,
-    "image": "product_images/claylamp.jpeg",
-    "category": 5,
-    "region": 1,
-    "created_at": "2025-08-13T17:19:27.092Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 6,
-  "fields": {
-    "seller": 6,
-    "name": "flower vas",
-    "description": "a beautiful marble art",
-    "price": "1599.00",
-    "mrp": null,
-    "material": null,
-    "color": null,
-    "quantity": null,
-    "image": "product_images/marbleart.jpeg",
-    "category": 6,
-    "region": 8,
-    "created_at": "2025-08-13T17:21:13.742Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 7,
-  "fields": {
-    "seller": 1,
-    "name": "hat",
-    "description": "handmade knitted hat",
-    "price": "499.00",
-    "mrp": null,
-    "material": "woolen",
-    "color": "light pink",
-    "quantity": "1",
-    "image": "product_images/hat.jpeg",
-    "category": 1,
-    "region": 6,
-    "created_at": "2025-08-13T17:22:09.067Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 8,
-  "fields": {
-    "seller": 1,
-    "name": "wooden kitchen items",
-    "description": "handcrafted wooden kitchen items",
-    "price": "600.00",
-    "mrp": null,
-    "material": "wooden",
-    "color": "brown",
-    "quantity": "1",
-    "image": "product_images/woodenart.jpeg",
-    "category": 7,
-    "region": 2,
-    "created_at": "2025-08-14T08:45:49.076Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 9,
-  "fields": {
-    "seller": 2,
-    "name": "terracotpot",
-    "description": "a handmade terracotpot",
-    "price": "599.00",
-    "mrp": null,
-    "material": "clay",
-    "color": "reddish brown",
-    "quantity": "1",
-    "image": "product_images/terracot1.jpg",
-    "category": 5,
-    "region": 1,
-    "created_at": "2025-08-14T09:19:32.405Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 10,
-  "fields": {
-    "seller": 1,
-    "name": "elephant  clay doll",
-    "description": "beautiful handmade elephant with clay",
-    "price": "500.00",
-    "mrp": null,
-    "material": "clay",
-    "color": "brown",
-    "quantity": "1",
-    "image": "product_images/westbengal.jpeg",
-    "category": 5,
-    "region": 4,
-    "created_at": "2025-08-22T04:54:57.913Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 11,
-  "fields": {
-    "seller": 9,
-    "name": "pattu saree",
-    "description": "hand weaved pure pattu",
-    "price": "2200.00",
-    "mrp": "2400.00",
-    "material": "pattu",
-    "color": "gold and pink",
-    "quantity": "1",
-    "image": "product_images/pattusaree.jpeg",
-    "category": 2,
-    "region": 2,
-    "created_at": "2025-10-21T14:05:09.950Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 13,
-  "fields": {
-    "seller": 9,
-    "name": "kanchipattu saree",
-    "description": "pure kanichipattu saree",
-    "price": "3000.00",
-    "mrp": "3500.00",
-    "material": "kanchipattu",
-    "color": "violet",
-    "quantity": "1",
-    "image": "product_images/kanchipattusaree.jpeg",
-    "category": 2,
-    "region": 2,
-    "created_at": "2025-10-21T14:11:21.527Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 14,
-  "fields": {
-    "seller": 10,
-    "name": "stone saraswathi idol",
-    "description": "white stone hand made idol",
-    "price": "999.00",
-    "mrp": "1100.00",
-    "material": "stone",
-    "color": "white",
-    "quantity": "1",
-    "image": "product_images/stoneart.jpeg",
-    "category": 6,
-    "region": 3,
-    "created_at": "2025-10-22T05:38:56.341Z"
-  }
-},
-{
-  "model": "core.product",
-  "pk": 15,
-  "fields": {
-    "seller": 11,
-    "name": "sandlewood ganesh",
-    "description": "pure sandlewood and waterproof",
-    "price": "350.00",
-    "mrp": "400.00",
-    "material": "wooden",
-    "color": "sandle",
-    "quantity": "4",
-    "image": "product_images/wooden_ganesh.jpeg",
-    "category": 7,
-    "region": 1,
-    "created_at": "2025-10-22T05:59:35.111Z"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 1,
-  "fields": {
-    "user": 3,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "Female",
-    "account_type": "Buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 2,
-  "fields": {
-    "user": 4,
-    "phone": "8688408742",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "Female",
-    "account_type": "Buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 3,
-  "fields": {
-    "user": 5,
-    "phone": "8688408742",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "Female",
-    "account_type": "Buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 4,
-  "fields": {
-    "user": 6,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-21T05:04:21.436Z",
-    "gender": "Female",
-    "account_type": "Seller"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 5,
-  "fields": {
-    "user": 7,
-    "phone": "8688408742",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "Female",
-    "account_type": "Buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 6,
-  "fields": {
-    "user": 8,
-    "phone": "8688408742",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "Male",
-    "account_type": "Buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 7,
-  "fields": {
-    "user": 10,
-    "phone": "9553637008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "Female",
-    "account_type": "Buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 8,
-  "fields": {
-    "user": 11,
-    "phone": "8688408742",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "Female",
-    "account_type": "Buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 9,
-  "fields": {
-    "user": 12,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 10,
-  "fields": {
-    "user": 13,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 11,
-  "fields": {
-    "user": 1,
-    "phone": null,
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": null,
-    "account_type": null
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 12,
-  "fields": {
-    "user": 2,
-    "phone": "8309836008",
-    "address": "",
-    "profile_picture": "profile_pics/download_TF7ofQm.jpeg",
-    "updated_at": "2025-11-14T16:24:37.872Z",
-    "gender": null,
-    "account_type": null
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 13,
-  "fields": {
-    "user": 9,
-    "phone": null,
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-20T10:19:51.920Z",
-    "gender": null,
-    "account_type": null
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 14,
-  "fields": {
-    "user": 14,
-    "phone": "6309242479",
-    "address": null,
-    "profile_picture": "profile_pics/download_FewUmbq.jpeg",
-    "updated_at": "2025-10-21T13:54:56.733Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 15,
-  "fields": {
-    "user": 15,
-    "phone": "6309242479",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-22T04:56:12.356Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 16,
-  "fields": {
-    "user": 16,
-    "phone": "6309242479",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-22T04:59:34.933Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 17,
-  "fields": {
-    "user": 17,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-22T05:09:09.587Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 18,
-  "fields": {
-    "user": 18,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-22T05:13:53.800Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 19,
-  "fields": {
-    "user": 19,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-22T05:21:26.134Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 20,
-  "fields": {
-    "user": 20,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-22T05:25:30.638Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 21,
-  "fields": {
-    "user": 21,
-    "phone": "6309242479",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-22T05:46:26.608Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 22,
-  "fields": {
-    "user": 22,
-    "phone": "6309242479",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-23T09:35:18.189Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 23,
-  "fields": {
-    "user": 23,
-    "phone": "6309242479",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-23T08:45:22.666Z",
-    "gender": "female",
-    "account_type": "seller"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 24,
-  "fields": {
-    "user": 24,
-    "phone": "8309835597",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-23T09:09:31.514Z",
-    "gender": "male",
-    "account_type": "seller"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 25,
-  "fields": {
-    "user": 25,
-    "phone": "134567",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-23T09:21:22.520Z",
-    "gender": "male",
-    "account_type": "seller"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 26,
-  "fields": {
-    "user": 26,
-    "phone": "6309242479",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-10-27T10:21:21.519Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 27,
-  "fields": {
-    "user": 27,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-11-15T04:48:29.418Z",
-    "gender": "male",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 28,
-  "fields": {
-    "user": 28,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2025-11-15T04:50:01.207Z",
-    "gender": "male",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.userprofile",
-  "pk": 29,
-  "fields": {
-    "user": 29,
-    "phone": "8309836008",
-    "address": null,
-    "profile_picture": "",
-    "updated_at": "2026-05-23T11:36:24.178Z",
-    "gender": "female",
-    "account_type": "buyer"
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 1,
-  "fields": {
-    "user": 14,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 2,
-  "fields": {
-    "user": 15,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 3,
-  "fields": {
-    "user": 16,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 4,
-  "fields": {
-    "user": 17,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 5,
-  "fields": {
-    "user": 18,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 6,
-  "fields": {
-    "user": 19,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 7,
-  "fields": {
-    "user": 20,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 8,
-  "fields": {
-    "user": 21,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 9,
-  "fields": {
-    "user": 22,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 10,
-  "fields": {
-    "user": 23,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 11,
-  "fields": {
-    "user": 24,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 12,
-  "fields": {
-    "user": 25,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 13,
-  "fields": {
-    "user": 26,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 14,
-  "fields": {
-    "user": 27,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 15,
-  "fields": {
-    "user": 28,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
-  }
-},
-{
-  "model": "core.profile",
-  "pk": 16,
-  "fields": {
-    "user": 29,
-    "phone": "",
-    "address": "",
-    "profile_picture": ""
   }
 }
 ]
