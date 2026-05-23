@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o#!n^(6fqv3sf4wza(n7&eznd-dr40-whfa)a1%hd^$9%vtz4i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['kalakart-gpwb.onrender.com',]
 
 
 # Application definition
