@@ -1,1 +1,2747 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2025-08-13T16:46:16.544Z", "user": 2, "content_type": 8, "object_id": "1", "object_repr": "lakshmi123", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2025-08-13T16:46:32.992Z", "user": 2, "content_type": 7, "object_id": "1", "object_repr": "knitting", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2025-08-13T16:47:46.170Z", "user": 2, "content_type": 9, "object_id": "1", "object_repr": "lakshmi", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2025-08-13T17:04:40.648Z", "user": 2, "content_type": 8, "object_id": "2", "object_repr": "pavani123", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2025-08-13T17:05:55.249Z", "user": 2, "content_type": 8, "object_id": "3", "object_repr": "gayathri", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2025-08-13T17:06:54.248Z", "user": 2, "content_type": 7, "object_id": "2", "object_repr": "clothing", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2025-08-13T17:07:05.390Z", "user": 2, "content_type": 7, "object_id": "3", "object_repr": "painting", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2025-08-13T17:08:07.167Z", "user": 2, "content_type": 9, "object_id": "2", "object_repr": "pavani", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2025-08-13T17:09:13.708Z", "user": 2, "content_type": 9, "object_id": "3", "object_repr": "Gayathri avisineni", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2025-08-13T17:11:20.269Z", "user": 2, "content_type": 8, "object_id": "4", "object_repr": "varshi123", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2025-08-13T17:11:29.628Z", "user": 2, "content_type": 7, "object_id": "4", "object_repr": "wall art", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2025-08-13T17:12:09.589Z", "user": 2, "content_type": 9, "object_id": "4", "object_repr": "varshitha", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2025-08-13T17:12:57.681Z", "user": 2, "content_type": 9, "object_id": "2", "object_repr": "pavani", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2025-08-13T17:16:53.713Z", "user": 2, "content_type": 4, "object_id": "9", "object_repr": "bhavani19", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2025-08-13T17:17:56.303Z", "user": 2, "content_type": 4, "object_id": "9", "object_repr": "bhavani19", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2025-08-13T17:18:34.746Z", "user": 2, "content_type": 8, "object_id": "5", "object_repr": "soniya12", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2025-08-13T17:18:47.006Z", "user": 2, "content_type": 7, "object_id": "5", "object_repr": "clay arts", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2025-08-13T17:19:27.094Z", "user": 2, "content_type": 9, "object_id": "5", "object_repr": "soniya", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2025-08-13T17:20:22.894Z", "user": 2, "content_type": 8, "object_id": "6", "object_repr": "bhavani19", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2025-08-13T17:20:32.019Z", "user": 2, "content_type": 7, "object_id": "6", "object_repr": "marble arts", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2025-08-13T17:21:13.743Z", "user": 2, "content_type": 9, "object_id": "6", "object_repr": "bhavani", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2025-08-13T17:22:09.069Z", "user": 2, "content_type": 9, "object_id": "7", "object_repr": "lakshmi", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2025-08-13T17:31:06.980Z", "user": 2, "content_type": 9, "object_id": "7", "object_repr": "hat", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2025-08-13T17:31:49.486Z", "user": 2, "content_type": 9, "object_id": "6", "object_repr": "flower vas", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2025-08-13T17:31:59.929Z", "user": 2, "content_type": 9, "object_id": "5", "object_repr": "clay lamp", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2025-08-13T17:32:36.323Z", "user": 2, "content_type": 9, "object_id": "4", "object_repr": "ganapathi wall art", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2025-08-13T17:33:11.698Z", "user": 2, "content_type": 9, "object_id": "3", "object_repr": "buddha painting", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2025-08-13T17:33:22.153Z", "user": 2, "content_type": 9, "object_id": "2", "object_repr": "kalamakari saree", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2025-08-13T17:33:32.022Z", "user": 2, "content_type": 9, "object_id": "1", "object_repr": "handbag", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2025-08-14T05:46:02.356Z", "user": 2, "content_type": 9, "object_id": "7", "object_repr": "hat", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Material\", \"Color\", \"Quantity\"]}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2025-08-14T08:44:37.307Z", "user": 2, "content_type": 7, "object_id": "7", "object_repr": "wooden art", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2025-08-14T08:45:49.078Z", "user": 2, "content_type": 9, "object_id": "8", "object_repr": "wooden kitchen items", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2025-08-14T09:19:05.263Z", "user": 2, "content_type": 7, "object_id": "5", "object_repr": "clay arts", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2025-08-14T09:19:32.407Z", "user": 2, "content_type": 9, "object_id": "9", "object_repr": "terracotpot", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2025-08-14T09:20:30.410Z", "user": 2, "content_type": 9, "object_id": "9", "object_repr": "terracotpot", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2025-08-22T04:54:57.958Z", "user": 2, "content_type": 9, "object_id": "10", "object_repr": "elephant  clay doll", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2025-09-17T12:09:16.006Z", "user": 2, "content_type": 12, "object_id": "1", "object_repr": "Andhra Pradesh", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2025-09-17T12:09:33.064Z", "user": 2, "content_type": 12, "object_id": "2", "object_repr": "Tamilnadu", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2025-09-17T12:09:47.202Z", "user": 2, "content_type": 12, "object_id": "3", "object_repr": "Karnataka", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2025-09-17T12:10:02.286Z", "user": 2, "content_type": 12, "object_id": "4", "object_repr": "Telangana", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2025-09-17T12:10:23.556Z", "user": 2, "content_type": 12, "object_id": "5", "object_repr": "Maharashtra", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2025-09-17T12:10:36.386Z", "user": 2, "content_type": 12, "object_id": "6", "object_repr": "kerala", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2025-09-17T12:10:50.357Z", "user": 2, "content_type": 12, "object_id": "7", "object_repr": "Gujarat", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2025-09-17T12:11:05.902Z", "user": 2, "content_type": 12, "object_id": "8", "object_repr": "WestBengal", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2025-09-17T12:11:25.313Z", "user": 2, "content_type": 9, "object_id": "2", "object_repr": "kalamakari saree", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2025-09-28T10:43:34.538Z", "user": 2, "content_type": 7, "object_id": "8", "object_repr": "Embroidery", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2025-09-28T10:44:38.229Z", "user": 2, "content_type": 7, "object_id": "9", "object_repr": "Jewelry", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2025-09-28T10:45:14.855Z", "user": 2, "content_type": 7, "object_id": "10", "object_repr": "Handloom", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2025-09-28T10:45:45.739Z", "user": 2, "content_type": 7, "object_id": "11", "object_repr": "Metal Crafts", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2025-09-28T10:47:43.588Z", "user": 2, "content_type": 7, "object_id": "12", "object_repr": "Sculpture", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2025-09-28T10:49:17.768Z", "user": 2, "content_type": 9, "object_id": "10", "object_repr": "elephant  clay doll", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2025-09-28T10:49:34.528Z", "user": 2, "content_type": 9, "object_id": "9", "object_repr": "terracotpot", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2025-09-28T10:49:41.690Z", "user": 2, "content_type": 9, "object_id": "8", "object_repr": "wooden kitchen items", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2025-09-28T10:49:52.486Z", "user": 2, "content_type": 9, "object_id": "7", "object_repr": "hat", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2025-09-28T10:49:59.312Z", "user": 2, "content_type": 9, "object_id": "6", "object_repr": "flower vas", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2025-09-28T10:50:06.885Z", "user": 2, "content_type": 9, "object_id": "5", "object_repr": "clay lamp", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2025-09-28T10:50:15.440Z", "user": 2, "content_type": 9, "object_id": "4", "object_repr": "ganapathi wall art", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2025-09-28T10:50:22.134Z", "user": 2, "content_type": 9, "object_id": "3", "object_repr": "buddha painting", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2025-09-28T10:50:32.215Z", "user": 2, "content_type": 9, "object_id": "2", "object_repr": "kalamakari saree", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2025-09-28T10:50:42.413Z", "user": 2, "content_type": 9, "object_id": "1", "object_repr": "handbag", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2025-09-28T11:20:28.091Z", "user": 2, "content_type": 12, "object_id": "1", "object_repr": "Andhra Pradesh", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2025-09-28T11:21:07.648Z", "user": 2, "content_type": 12, "object_id": "2", "object_repr": "Tamilnadu", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2025-09-28T11:50:58.100Z", "user": 2, "content_type": 12, "object_id": "8", "object_repr": "WestBengal", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2025-09-28T11:51:16.798Z", "user": 2, "content_type": 12, "object_id": "6", "object_repr": "kerala", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2025-09-28T11:51:27.229Z", "user": 2, "content_type": 12, "object_id": "5", "object_repr": "Maharashtra", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2025-09-28T11:51:35.853Z", "user": 2, "content_type": 12, "object_id": "4", "object_repr": "Telangana", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2025-09-28T11:51:43.455Z", "user": 2, "content_type": 12, "object_id": "3", "object_repr": "Karnataka", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2025-09-28T11:52:12.153Z", "user": 2, "content_type": 12, "object_id": "7", "object_repr": "Gujarat", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"}}, {"model": "admin.logentry", "pk": 69, "fields": {"action_time": "2025-10-16T17:21:09.151Z", "user": 2, "content_type": 4, "object_id": "12", "object_repr": "malaika123", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 70, "fields": {"action_time": "2025-10-16T17:21:25.139Z", "user": 2, "content_type": 4, "object_id": "2", "object_repr": "gayathri", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 71, "fields": {"action_time": "2025-10-21T14:12:04.468Z", "user": 2, "content_type": 9, "object_id": "12", "object_repr": "pattu saree", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 72, "fields": {"action_time": "2025-10-30T09:49:37.123Z", "user": 2, "content_type": 9, "object_id": "16", "object_repr": "kanchi saree", "action_flag": 3, "change_message": ""}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add category", "content_type": 7, "codename": "add_category"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change category", "content_type": 7, "codename": "change_category"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete category", "content_type": 7, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view category", "content_type": 7, "codename": "view_category"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add seller profile", "content_type": 8, "codename": "add_sellerprofile"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change seller profile", "content_type": 8, "codename": "change_sellerprofile"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete seller profile", "content_type": 8, "codename": "delete_sellerprofile"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view seller profile", "content_type": 8, "codename": "view_sellerprofile"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add product", "content_type": 9, "codename": "add_product"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change product", "content_type": 9, "codename": "change_product"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete product", "content_type": 9, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view product", "content_type": 9, "codename": "view_product"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add user profile", "content_type": 10, "codename": "add_userprofile"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change user profile", "content_type": 10, "codename": "change_userprofile"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete user profile", "content_type": 10, "codename": "delete_userprofile"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view user profile", "content_type": 10, "codename": "view_userprofile"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add product image", "content_type": 11, "codename": "add_productimage"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change product image", "content_type": 11, "codename": "change_productimage"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete product image", "content_type": 11, "codename": "delete_productimage"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view product image", "content_type": 11, "codename": "view_productimage"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add region", "content_type": 12, "codename": "add_region"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change region", "content_type": 12, "codename": "change_region"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete region", "content_type": 12, "codename": "delete_region"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view region", "content_type": 12, "codename": "view_region"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add cart", "content_type": 13, "codename": "add_cart"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change cart", "content_type": 13, "codename": "change_cart"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete cart", "content_type": 13, "codename": "delete_cart"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view cart", "content_type": 13, "codename": "view_cart"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add order", "content_type": 14, "codename": "add_order"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change order", "content_type": 14, "codename": "change_order"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete order", "content_type": 14, "codename": "delete_order"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view order", "content_type": 14, "codename": "view_order"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add order item", "content_type": 15, "codename": "add_orderitem"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change order item", "content_type": 15, "codename": "change_orderitem"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete order item", "content_type": 15, "codename": "delete_orderitem"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view order item", "content_type": 15, "codename": "view_orderitem"}}, {"model": "auth.permission", "pk": 61, "fields": {"name": "Can add address", "content_type": 16, "codename": "add_address"}}, {"model": "auth.permission", "pk": 62, "fields": {"name": "Can change address", "content_type": 16, "codename": "change_address"}}, {"model": "auth.permission", "pk": 63, "fields": {"name": "Can delete address", "content_type": 16, "codename": "delete_address"}}, {"model": "auth.permission", "pk": 64, "fields": {"name": "Can view address", "content_type": 16, "codename": "view_address"}}, {"model": "auth.permission", "pk": 65, "fields": {"name": "Can add profile", "content_type": 17, "codename": "add_profile"}}, {"model": "auth.permission", "pk": 66, "fields": {"name": "Can change profile", "content_type": 17, "codename": "change_profile"}}, {"model": "auth.permission", "pk": 67, "fields": {"name": "Can delete profile", "content_type": 17, "codename": "delete_profile"}}, {"model": "auth.permission", "pk": 68, "fields": {"name": "Can view profile", "content_type": 17, "codename": "view_profile"}}, {"model": "auth.permission", "pk": 69, "fields": {"name": "Can add review", "content_type": 18, "codename": "add_review"}}, {"model": "auth.permission", "pk": 70, "fields": {"name": "Can change review", "content_type": 18, "codename": "change_review"}}, {"model": "auth.permission", "pk": 71, "fields": {"name": "Can delete review", "content_type": 18, "codename": "delete_review"}}, {"model": "auth.permission", "pk": 72, "fields": {"name": "Can view review", "content_type": 18, "codename": "view_review"}}, {"model": "auth.permission", "pk": 73, "fields": {"name": "Can add review", "content_type": 19, "codename": "add_review"}}, {"model": "auth.permission", "pk": 74, "fields": {"name": "Can change review", "content_type": 19, "codename": "change_review"}}, {"model": "auth.permission", "pk": 75, "fields": {"name": "Can delete review", "content_type": 19, "codename": "delete_review"}}, {"model": "auth.permission", "pk": 76, "fields": {"name": "Can view review", "content_type": 19, "codename": "view_review"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$1000000$4Tyxesm9a1CIWubKdhvYlt$eFhsuHrDGUY4ajJ8YhAeGxxZjE+nSEITqNMHlbeoofA=", "last_login": "2025-08-04T07:31:20.487Z", "is_superuser": false, "username": "gayathri123", "first_name": "gayathri", "last_name": "", "email": "gayathri.avisineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-08-04T07:30:37.321Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$1000000$RoaucZp2rpb9MXR1CBLNTo$4us/a9xXUA/F5LNjIdluoCW5m/S5ZGRDfW6NY652WkU=", "last_login": "2026-05-23T11:37:15.174Z", "is_superuser": true, "username": "gayathri", "first_name": "gayathri", "last_name": "avisineni", "email": "gayathri.avisineni@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2025-08-04T08:46:43Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 3, "fields": {"password": "pbkdf2_sha256$1000000$mLTWO07Q2cGmjsfu9VeNK3$mpSK5LgcjmBBroevNg0U1HFvMSrlJMRaYmTrlYcrjiw=", "last_login": "2025-08-14T08:50:05.475Z", "is_superuser": false, "username": "gayathri1234", "first_name": "gayathri", "last_name": "", "email": "gayathri.avisineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-08-04T08:49:57.339Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 4, "fields": {"password": "pbkdf2_sha256$1000000$vHo8bH0WFZ6xRMOwph9er1$utO8FxnR0sAsamjbnMSFMt/rnsib56apU2pzYbCL/0E=", "last_login": null, "is_superuser": false, "username": "varshi123", "first_name": "varshitha", "last_name": "", "email": "o210688@rguktong.ac.in", "is_staff": false, "is_active": true, "date_joined": "2025-08-04T09:33:13.235Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$1000000$LQffKOucFG3IYXt79omlbi$5DCXFQYPn5Vlh9BS7hMtaP1qFpyEBugtegxu/izasb4=", "last_login": "2025-10-27T10:08:48.690Z", "is_superuser": false, "username": "pavani123", "first_name": "pavani", "last_name": "", "email": "pavanidonthula98@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-08-04T09:40:31.779Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 6, "fields": {"password": "pbkdf2_sha256$1000000$lQFLHsKLaNUvYPYiBhoNgs$u3HKxZMPu6pSKFfPBleaIeAHdxrY/Tw6Hh/3Y9jKp/I=", "last_login": "2025-10-28T16:10:11.988Z", "is_superuser": false, "username": "lakshmi123", "first_name": "lakshmi", "last_name": "", "email": "gayathri.avisineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-08-04T10:45:25.298Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 7, "fields": {"password": "pbkdf2_sha256$1000000$ZfzTVOHrWL2TVHInEcNTam$0bORzHYmdVY5r75dAiSu/+XVI0JROgwCFz1a1Pxtf1c=", "last_login": "2025-10-27T10:18:10.321Z", "is_superuser": false, "username": "soniya12", "first_name": "soniya", "last_name": "", "email": "gayathri.avisineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-08-05T04:32:47.652Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 8, "fields": {"password": "pbkdf2_sha256$1000000$iIzJjHhjA0sOPHiiT9AbWX$3RV4YP7AqBXzCLiEphIGc23XNaIxxT+yp1q+gstX+z0=", "last_login": "2025-08-13T07:02:24.532Z", "is_superuser": false, "username": "vijay", "first_name": "vijay", "last_name": "", "email": "gayathri.avisineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-08-13T07:02:06.816Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 9, "fields": {"password": "pbkdf2_sha256$1000000$ydLAbkIhS6sQtkcvNqi0AT$S4zx7iEnj4kWeGm40OKDO7SYZRb3ToKn3T9z9hzJyp0=", "last_login": null, "is_superuser": false, "username": "bhavani19", "first_name": "bhavani", "last_name": "gandu", "email": "o210134@rguktong.ac.in", "is_staff": false, "is_active": true, "date_joined": "2025-08-13T17:16:53Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 10, "fields": {"password": "pbkdf2_sha256$1000000$x6sz4wNSj60y1YSDx6etZN$rHgyzSC7fPXaKtzo7l1trVgo0lWFzTOtcPm08b4jrK0=", "last_login": "2025-10-30T09:48:04.066Z", "is_superuser": false, "username": "thulasi123", "first_name": "thulasi_kalva", "last_name": "", "email": "s210701@rguktong.ac.in", "is_staff": false, "is_active": true, "date_joined": "2025-08-14T08:32:35.184Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 11, "fields": {"password": "pbkdf2_sha256$1000000$ylZDWGaV8UnYMX5eOAGBzd$iRrDErFl0A8CfwpTdtYMIOM77IiG0St3DnWYd4PUt9I=", "last_login": "2025-10-21T13:35:39.372Z", "is_superuser": false, "username": "durga123", "first_name": "durga", "last_name": "", "email": "gayathri.avisineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-08-28T09:59:47.754Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 12, "fields": {"password": "pbkdf2_sha256$1000000$O7wO7tW6FVznQbdcx8CNKw$0QpPuL4n2gPSLLG2O9E2x2dQCY65XfljOF2hvqNZOUA=", "last_login": "2025-10-16T16:49:19Z", "is_superuser": false, "username": "malaika123", "first_name": "moulika", "last_name": "tenali", "email": "pavanidonthula98@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-16T16:49:02Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 13, "fields": {"password": "pbkdf2_sha256$1000000$VSFFRZgzP4cKyeaGdtVDn6$9W+ZLMlc8sup2cZTYdL7eWSMcy4K3cxl5CdRVMKGQH4=", "last_login": "2025-10-27T10:18:30.716Z", "is_superuser": false, "username": "maheswari@123", "first_name": "maheswari", "last_name": "kotte", "email": "o210688@rguktong.ac.in", "is_staff": false, "is_active": true, "date_joined": "2025-10-16T17:20:09.480Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 14, "fields": {"password": "pbkdf2_sha256$1000000$nQKqoletFKuQV4KFqmcEkB$AWR05hiaDj1pG6eV6iXHqjImZEN8cvlrgKYLz15QYCM=", "last_login": "2025-10-21T14:15:57.250Z", "is_superuser": false, "username": "pavs", "first_name": "pavani", "last_name": "dontula", "email": "pavanidonthula98@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-21T13:53:17.893Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 15, "fields": {"password": "pbkdf2_sha256$1000000$bk0IqJ4se9osOOEIrbzHgW$P7vo7eP/Q637CsvWVlUIDdpgcGNwLHA9PPoj0PniNAQ=", "last_login": "2025-10-22T04:57:43.692Z", "is_superuser": false, "username": "priyanka", "first_name": "priyanka", "last_name": "salagala", "email": "priyanka123@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-22T04:56:10.895Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 16, "fields": {"password": "pbkdf2_sha256$1000000$2NjM4k9r1jlhMz8gjVG4Lz$ZHTURe3BDbNbRrABNcRiy/5ex3FSc9z8X6uGzbS3UZo=", "last_login": "2025-10-22T04:59:46.878Z", "is_superuser": false, "username": "mouni143", "first_name": "mounika", "last_name": "donthula", "email": "pavanidontula@gamil.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-22T04:59:33.120Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 17, "fields": {"password": "pbkdf2_sha256$1000000$xQ02GPWah7HFIIzMhXHAOX$AzJIvH4kzAVKbwZ2Y+6YlxNcgc2X3oszql2WbbPi69Y=", "last_login": "2025-10-22T05:10:50.424Z", "is_superuser": false, "username": "harshini_24", "first_name": "harshini", "last_name": "goli", "email": "gayathri.avisineni@gamil.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-22T05:09:08.062Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 18, "fields": {"password": "pbkdf2_sha256$1000000$T6wctuyunoSioaNbYIlR9r$lq4Mmekv6xVXWkd8XNSfFtHnOthbWwYaqfF/KsfLoWo=", "last_login": "2025-10-22T05:14:20.387Z", "is_superuser": false, "username": "karishma_123", "first_name": "karishma", "last_name": "panem", "email": "pavanidontula@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-22T05:13:52.261Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 19, "fields": {"password": "pbkdf2_sha256$1000000$O4d53xAjiKA1ERG1JFf9yr$LGd5WiCZ6T4UtS9OoANgCYo+ZHUkPKbQOkqUAyJWiyk=", "last_login": "2025-10-22T05:21:38.233Z", "is_superuser": false, "username": "vasudha123", "first_name": "vasudha", "last_name": "gaali", "email": "gayathri.avisneni@gamil.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-22T05:21:24.654Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 20, "fields": {"password": "pbkdf2_sha256$1000000$tK4yt91Ex12U0eSwokkOQD$XtrZEB8TBMp6XTedJytQSYEKLoYi8M/sIelvRZ+uzzI=", "last_login": "2025-10-22T05:25:46.683Z", "is_superuser": false, "username": "vijaya123", "first_name": "vijaya", "last_name": "lakshmi", "email": "gayathri.avisneni@gamil.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-22T05:25:29.145Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 21, "fields": {"password": "pbkdf2_sha256$1000000$9NFdA45ntUl9dZbrt7H0Ed$r+B2iOlswfPSclZ0BOiv1dFHAio1ryhw3IyqSDLsADE=", "last_login": "2025-10-22T05:46:50.477Z", "is_superuser": false, "username": "vijaya", "first_name": "vijayalakshmi", "last_name": "v", "email": "vijaya@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-22T05:46:25.120Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 22, "fields": {"password": "pbkdf2_sha256$1000000$vhbn0yMQ0yBkqnZzEhqyiC$3UuDQzKN+6HSNlm1NldEWgDuHhq+bN6PWD6BVGs5uLA=", "last_login": "2025-10-23T09:38:43.731Z", "is_superuser": false, "username": "malaika1234", "first_name": "malaika", "last_name": "tenali", "email": "pavanidontula98@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-23T08:37:54.523Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 23, "fields": {"password": "pbkdf2_sha256$1000000$iz74dvcEuIoF2D9MQGWYk4$nJHaVBmWim7k2/EpmrPzCknCEq4FoQZ/41N4xMpffp0=", "last_login": "2025-10-30T09:48:26.698Z", "is_superuser": false, "username": "thulasi1234", "first_name": "thulasi", "last_name": "kalva", "email": "thulasi@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-23T08:45:21.266Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 24, "fields": {"password": "pbkdf2_sha256$1000000$lRReW1k2dM5Abq1BCB95pK$vsRMh78BCCaRCAHO+Q81AHGwqI/CRo5mJ6NFhcLOeg4=", "last_login": "2025-10-23T09:09:51.212Z", "is_superuser": false, "username": "durgeshkalla", "first_name": "durgesh", "last_name": "kalla", "email": "ongolebatman@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-23T09:09:29.995Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 25, "fields": {"password": "pbkdf2_sha256$1000000$GUKm9349TVjz57XPI1mbEX$natLCD6hXkeJgjpvRseki+tK/hK6JygxORV/HCyazqk=", "last_login": "2025-10-23T09:20:49.882Z", "is_superuser": false, "username": "lakshmiganesh", "first_name": "lakshmi", "last_name": "ganesh", "email": "nagchimata297@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-23T09:20:33.918Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 26, "fields": {"password": "pbkdf2_sha256$1000000$NDiyVX0lK4NfxidymgZNtG$vMqgj6ZuZLZdrSwAR30qQ5GA3A8ioSmMhgttVXfW1Z4=", "last_login": "2025-10-27T10:21:39.125Z", "is_superuser": false, "username": "kumari234", "first_name": "kumari", "last_name": "yellela", "email": "kumari@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-10-27T10:21:19.972Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 27, "fields": {"password": "pbkdf2_sha256$1000000$1jW13RRBZidhY530eloHMd$03YoPxocAa9dOg304wtqVWq0SYsVMap2N7roPsmPf+Q=", "last_login": null, "is_superuser": false, "username": "gowtham", "first_name": "gouwtham", "last_name": "abs", "email": "gayathri@gamil.com", "is_staff": false, "is_active": true, "date_joined": "2025-11-15T04:48:27.947Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 28, "fields": {"password": "pbkdf2_sha256$1000000$35BXOGP8yEmpvYjqibhRVE$ZUIIflU9icRVTwhSWO55tCQdONudQlFRU31LXPYCeZU=", "last_login": "2025-11-15T04:50:15.872Z", "is_superuser": false, "username": "goutham12345", "first_name": "goutham", "last_name": "abc", "email": "gayathri.avisineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2025-11-15T04:49:59.814Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 29, "fields": {"password": "pbkdf2_sha256$1000000$pN8MyFkpOU58pNoHb2Py5u$WDbeXyp7zjLrA+mER/XuasmncoOvCsoV06Tjej62sMg=", "last_login": "2026-05-23T11:39:35.720Z", "is_superuser": false, "username": "kavya123", "first_name": "kavya", "last_name": "makineni", "email": "kavya.makineni@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2026-05-23T11:36:22.745Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "core", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "core", "model": "sellerprofile"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "core", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "core", "model": "userprofile"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "core", "model": "productimage"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "core", "model": "region"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "cart", "model": "cart"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "cart", "model": "order"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "cart", "model": "orderitem"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"app_label": "cart", "model": "address"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"app_label": "core", "model": "profile"}}, {"model": "contenttypes.contenttype", "pk": 18, "fields": {"app_label": "core", "model": "review"}}, {"model": "contenttypes.contenttype", "pk": 19, "fields": {"app_label": "cart", "model": "review"}}, {"model": "sessions.session", "pk": "04015ygxxxvcebhiwbhbn43dj63e915y", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlnxOv5R0nMGy7te4wBypDipEHeHSCmgfTPzXiKmba1x67zEKYuzAHH63TDRg9sO8j212yxpbusyodwVedAur3Pm5-Vw_w5q6vVbl5wCoYbiPCMiAxCgs8Rk0GjUxhjgkeyAKjgISaniaXR-VIMu1rF4fwAPjDgw:1vBCKD:RKfTi6wMrrlK9rCBdeoxCCH117Za6k6mwGMPEOIYJzs", "expire_date": "2025-11-04T13:22:53.607Z"}}, {"model": "sessions.session", "pk": "c2z0l8mq8zaipyavz73uuonteoxqurm7", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2hBgIAwu3XsGMjAgVUOT0q6Md9cmXej2v_f-S0Ta1ha3UZY4sTgLE8Tpd0yUH6XvhO_Ub7PMc1-XKcldkQcd8jpzeV4O9--g0WjfGgyBLmw5Fa3Ra20dgtWAxVbM2RsHVJ1Dn1T1NaOtASlUQFBMXnnx_gD01TeK:1wQkix:BfRg_hPPzgukH90Ql0AlESAa56QtvxL2ZHTWOXWmMMo", "expire_date": "2026-06-06T11:40:59.592Z"}}, {"model": "sessions.session", "pk": "fu6gjb3f6v8ng798kwtrcq53xcwcspck", "fields": {"session_data": ".eJxVjMsOwiAQAP-FsyEC8vLovd_Q7LKLVA0kpT0Z_92Q9KDXmcm8xQz7Vua98zovJK7CidMvQ0hPrkPQA-q9ydTqti4oRyIP2-XUiF-3o_0bFOhlbC_aas8Bc0T0EaLRiRRE5hwTWCTFwSowbHwmozUQWJco-HRG1MGJzxcBEzjN:1uj9Kv:0w19RovbTkQUq3AJSy3t-o0CjgaDJGnoUCsWkOlE9L0", "expire_date": "2025-08-19T04:31:41.790Z"}}, {"model": "sessions.session", "pk": "oc3mmdf02ud0qjq1zftnj0o9wviqkegs", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlnxOv5R0nMGy7te4wBypDipEHeHSCmgfTPzXiKmba1x67zEKYuzAHH63TDRg9sO8j212yxpbusyodwVedAur3Pm5-Vw_w5q6vVbl5wCoYbiPCMiAxCgs8Rk0GjUxhjgkeyAKjgISaniaXR-VIMu1rF4fwAPjDgw:1vK8Hi:ulKsXraQgRfybHAF-LvtlTzRr3NI9RsHT34vrQLaIgU", "expire_date": "2025-11-29T04:53:14.692Z"}}, {"model": "sessions.session", "pk": "qneukp3q8blyce1ar4y9mj7okbidt9w5", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlnxOv5R0nMGy7te4wBypDipEHeHSCmgfTPzXiKmba1x67zEKYuzAHH63TDRg9sO8j212yxpbusyodwVedAur3Pm5-Vw_w5q6vVbl5wCoYbiPCMiAxCgs8Rk0GjUxhjgkeyAKjgISaniaXR-VIMu1rF4fwAPjDgw:1v2oqI:gpAo_ubBoU6OW8JDisYHVQy3qvYrcVjKSS41xFb4BeI", "expire_date": "2025-10-12T10:41:22.416Z"}}, {"model": "sessions.session", "pk": "sepx0t20oimx9ukdsuvk16awucdk7clx", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlnxOv5R0nMGy7te4wBypDipEHeHSCmgfTPzXiKmba1x67zEKYuzAHH63TDRg9sO8j212yxpbusyodwVedAur3Pm5-Vw_w5q6vVbl5wCoYbiPCMiAxCgs8Rk0GjUxhjgkeyAKjgISaniaXR-VIMu1rF4fwAPjDgw:1urZcr:QeUJZleg9v7sXcT83bmt5guFHZJT5R8TqynTOq5iPPI", "expire_date": "2025-09-11T10:13:01.999Z"}}, {"model": "sessions.session", "pk": "zhji5su4zjqoxelx3s11tkrat7lp4m5l", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlnxOv5R0nMGy7te4wBypDipEHeHSCmgfTPzXiKmba1x67zEKYuzAHH63TDRg9sO8j212yxpbusyodwVedAur3Pm5-Vw_w5q6vVbl5wCoYbiPCMiAxCgs8Rk0GjUxhjgkeyAKjgISaniaXR-VIMu1rF4fwAPjDgw:1um5S3:Jga8RN6OEgL7417ZN7LlKpznXftYVjb8-qMcj2lXIY8", "expire_date": "2025-08-27T06:59:11.794Z"}}, {"model": "core.sellerprofile", "pk": 1, "fields": {"user": 6, "full_name": "", "store_name": "", "location": "", "bio": "an artist of handmade knitting items", "profile_picture": "profile_pics/handbag.jpeg", "rating": 4.0}}, {"model": "core.sellerprofile", "pk": 2, "fields": {"user": 5, "full_name": "", "store_name": "", "location": "", "bio": "kalamkari artist", "profile_picture": "profile_pics/kalamkarisaree.jpeg", "rating": 5.0}}, {"model": "core.sellerprofile", "pk": 3, "fields": {"user": 2, "full_name": "gayathri", "store_name": "kala_store", "location": "chimakurthy", "bio": "painter", "profile_picture": "profile_pics/painting.jpeg", "rating": 5.0}}, {"model": "core.sellerprofile", "pk": 4, "fields": {"user": 4, "full_name": "", "store_name": "", "location": "", "bio": "a professional wall artist", "profile_picture": "profile_pics/wallart.jpeg", "rating": 5.0}}, {"model": "core.sellerprofile", "pk": 5, "fields": {"user": 7, "full_name": "", "store_name": "", "location": "", "bio": "clay artist", "profile_picture": "profile_pics/claylamp.jpeg", "rating": 4.0}}, {"model": "core.sellerprofile", "pk": 6, "fields": {"user": 9, "full_name": "", "store_name": "", "location": "", "bio": "marble artist", "profile_picture": "profile_pics/marbleart.jpeg", "rating": 4.5}}, {"model": "core.sellerprofile", "pk": 7, "fields": {"user": 13, "full_name": "", "store_name": "", "location": "", "bio": "", "profile_picture": "", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 8, "fields": {"user": 11, "full_name": "durga", "store_name": "durga_store", "location": "ongole", "bio": "local artist", "profile_picture": "profile_pics/Creativity_Inc.jpg", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 9, "fields": {"user": 14, "full_name": "pavani dontula", "store_name": "pavani_store", "location": "ong", "bio": "saree lover", "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834.jpeg", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 10, "fields": {"user": 20, "full_name": "priyanka", "store_name": "priya_made", "location": "chirala", "bio": "", "profile_picture": "profile_pics/images.jpeg", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 11, "fields": {"user": 21, "full_name": "vijayalakshmi", "store_name": "vijaya_arts", "location": "chimakurthy", "bio": "made with pure sandlewood", "profile_picture": "profile_pics/wooden_ganesh.jpeg", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 12, "fields": {"user": 23, "full_name": "thulasi_kalva", "store_name": "thulasi_store", "location": "ongole", "bio": "", "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834_mHEwR3B.jpeg", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 13, "fields": {"user": 24, "full_name": "pavani dontula", "store_name": "pavanistore", "location": "ong", "bio": "", "profile_picture": "", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 14, "fields": {"user": 25, "full_name": "ganesh", "store_name": "text", "location": "ongole", "bio": "nothing", "profile_picture": "", "rating": 0.0}}, {"model": "core.sellerprofile", "pk": 15, "fields": {"user": 22, "full_name": "pavani dontula", "store_name": "pavanistoree", "location": "ongole", "bio": "", "profile_picture": "", "rating": 0.0}}, {"model": "core.category", "pk": 1, "fields": {"name": "knitting"}}, {"model": "core.category", "pk": 2, "fields": {"name": "clothing"}}, {"model": "core.category", "pk": 3, "fields": {"name": "painting"}}, {"model": "core.category", "pk": 4, "fields": {"name": "wall art"}}, {"model": "core.category", "pk": 5, "fields": {"name": "clay arts"}}, {"model": "core.category", "pk": 6, "fields": {"name": "marble arts"}}, {"model": "core.category", "pk": 7, "fields": {"name": "wooden art"}}, {"model": "core.category", "pk": 8, "fields": {"name": "Embroidery"}}, {"model": "core.category", "pk": 9, "fields": {"name": "Jewelry"}}, {"model": "core.category", "pk": 10, "fields": {"name": "Handloom"}}, {"model": "core.category", "pk": 11, "fields": {"name": "Metal Crafts"}}, {"model": "core.category", "pk": 12, "fields": {"name": "Sculpture"}}, {"model": "core.region", "pk": 1, "fields": {"name": "Andhra Pradesh", "image": "region_images/andhrapradesh.jpeg"}}, {"model": "core.region", "pk": 2, "fields": {"name": "Tamilnadu", "image": "region_images/tamilnadu.jpeg"}}, {"model": "core.region", "pk": 3, "fields": {"name": "Karnataka", "image": "region_images/karnataka.jpeg"}}, {"model": "core.region", "pk": 4, "fields": {"name": "Telangana", "image": "region_images/telangana.jpeg"}}, {"model": "core.region", "pk": 5, "fields": {"name": "Maharashtra", "image": "region_images/maharastra.jpeg"}}, {"model": "core.region", "pk": 6, "fields": {"name": "kerala", "image": "region_images/kerala.jpeg"}}, {"model": "core.region", "pk": 7, "fields": {"name": "Gujarat", "image": "region_images/gujarat.jpeg"}}, {"model": "core.region", "pk": 8, "fields": {"name": "WestBengal", "image": "region_images/westbengal.jpeg"}}, {"model": "core.product", "pk": 1, "fields": {"seller": 1, "name": "handbag", "description": "a handmade knitted woollen handbag", "price": "599.00", "mrp": null, "material": null, "color": null, "quantity": null, "image": "product_images/handbag.jpeg", "category": 1, "region": 3, "created_at": "2025-08-13T16:47:46.057Z"}}, {"model": "core.product", "pk": 2, "fields": {"seller": 2, "name": "kalamakari saree", "description": "a kalamkari handpanited saree", "price": "1399.00", "mrp": null, "material": null, "color": null, "quantity": null, "image": "product_images/kalamkarisaree.jpeg", "category": 2, "region": 1, "created_at": "2025-08-13T17:08:07.165Z"}}, {"model": "core.product", "pk": 3, "fields": {"seller": 3, "name": "buddha painting", "description": "a painting of buddha", "price": "2000.00", "mrp": null, "material": null, "color": null, "quantity": null, "image": "product_images/painting.jpeg", "category": 3, "region": 7, "created_at": "2025-08-13T17:09:13.705Z"}}, {"model": "core.product", "pk": 4, "fields": {"seller": 4, "name": "ganapathi wall art", "description": "a beautiful modern wall art", "price": "700.00", "mrp": null, "material": null, "color": null, "quantity": null, "image": "product_images/wallart.jpeg", "category": 4, "region": 5, "created_at": "2025-08-13T17:12:09.587Z"}}, {"model": "core.product", "pk": 5, "fields": {"seller": 5, "name": "clay lamp", "description": "handmade clay lamp", "price": "90.00", "mrp": null, "material": null, "color": null, "quantity": null, "image": "product_images/claylamp.jpeg", "category": 5, "region": 1, "created_at": "2025-08-13T17:19:27.092Z"}}, {"model": "core.product", "pk": 6, "fields": {"seller": 6, "name": "flower vas", "description": "a beautiful marble art", "price": "1599.00", "mrp": null, "material": null, "color": null, "quantity": null, "image": "product_images/marbleart.jpeg", "category": 6, "region": 8, "created_at": "2025-08-13T17:21:13.742Z"}}, {"model": "core.product", "pk": 7, "fields": {"seller": 1, "name": "hat", "description": "handmade knitted hat", "price": "499.00", "mrp": null, "material": "woolen", "color": "light pink", "quantity": "1", "image": "product_images/hat.jpeg", "category": 1, "region": 6, "created_at": "2025-08-13T17:22:09.067Z"}}, {"model": "core.product", "pk": 8, "fields": {"seller": 1, "name": "wooden kitchen items", "description": "handcrafted wooden kitchen items", "price": "600.00", "mrp": null, "material": "wooden", "color": "brown", "quantity": "1", "image": "product_images/woodenart.jpeg", "category": 7, "region": 2, "created_at": "2025-08-14T08:45:49.076Z"}}, {"model": "core.product", "pk": 9, "fields": {"seller": 2, "name": "terracotpot", "description": "a handmade terracotpot", "price": "599.00", "mrp": null, "material": "clay", "color": "reddish brown", "quantity": "1", "image": "product_images/terracot1.jpg", "category": 5, "region": 1, "created_at": "2025-08-14T09:19:32.405Z"}}, {"model": "core.product", "pk": 10, "fields": {"seller": 1, "name": "elephant  clay doll", "description": "beautiful handmade elephant with clay", "price": "500.00", "mrp": null, "material": "clay", "color": "brown", "quantity": "1", "image": "product_images/westbengal.jpeg", "category": 5, "region": 4, "created_at": "2025-08-22T04:54:57.913Z"}}, {"model": "core.product", "pk": 11, "fields": {"seller": 9, "name": "pattu saree", "description": "hand weaved pure pattu", "price": "2200.00", "mrp": "2400.00", "material": "pattu", "color": "gold and pink", "quantity": "1", "image": "product_images/pattusaree.jpeg", "category": 2, "region": 2, "created_at": "2025-10-21T14:05:09.950Z"}}, {"model": "core.product", "pk": 13, "fields": {"seller": 9, "name": "kanchipattu saree", "description": "pure kanichipattu saree", "price": "3000.00", "mrp": "3500.00", "material": "kanchipattu", "color": "violet", "quantity": "1", "image": "product_images/kanchipattusaree.jpeg", "category": 2, "region": 2, "created_at": "2025-10-21T14:11:21.527Z"}}, {"model": "core.product", "pk": 14, "fields": {"seller": 10, "name": "stone saraswathi idol", "description": "white stone hand made idol", "price": "999.00", "mrp": "1100.00", "material": "stone", "color": "white", "quantity": "1", "image": "product_images/stoneart.jpeg", "category": 6, "region": 3, "created_at": "2025-10-22T05:38:56.341Z"}}, {"model": "core.product", "pk": 15, "fields": {"seller": 11, "name": "sandlewood ganesh", "description": "pure sandlewood and waterproof", "price": "350.00", "mrp": "400.00", "material": "wooden", "color": "sandle", "quantity": "4", "image": "product_images/wooden_ganesh.jpeg", "category": 7, "region": 1, "created_at": "2025-10-22T05:59:35.111Z"}}, {"model": "core.userprofile", "pk": 1, "fields": {"user": 3, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "Female", "account_type": "Buyer"}}, {"model": "core.userprofile", "pk": 2, "fields": {"user": 4, "phone": "8688408742", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "Female", "account_type": "Buyer"}}, {"model": "core.userprofile", "pk": 3, "fields": {"user": 5, "phone": "8688408742", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "Female", "account_type": "Buyer"}}, {"model": "core.userprofile", "pk": 4, "fields": {"user": 6, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-21T05:04:21.436Z", "gender": "Female", "account_type": "Seller"}}, {"model": "core.userprofile", "pk": 5, "fields": {"user": 7, "phone": "8688408742", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "Female", "account_type": "Buyer"}}, {"model": "core.userprofile", "pk": 6, "fields": {"user": 8, "phone": "8688408742", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "Male", "account_type": "Buyer"}}, {"model": "core.userprofile", "pk": 7, "fields": {"user": 10, "phone": "9553637008", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "Female", "account_type": "Buyer"}}, {"model": "core.userprofile", "pk": 8, "fields": {"user": 11, "phone": "8688408742", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "Female", "account_type": "Buyer"}}, {"model": "core.userprofile", "pk": 9, "fields": {"user": 12, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 10, "fields": {"user": 13, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 11, "fields": {"user": 1, "phone": null, "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": null, "account_type": null}}, {"model": "core.userprofile", "pk": 12, "fields": {"user": 2, "phone": "8309836008", "address": "", "profile_picture": "profile_pics/download_TF7ofQm.jpeg", "updated_at": "2025-11-14T16:24:37.872Z", "gender": null, "account_type": null}}, {"model": "core.userprofile", "pk": 13, "fields": {"user": 9, "phone": null, "address": null, "profile_picture": "", "updated_at": "2025-10-20T10:19:51.920Z", "gender": null, "account_type": null}}, {"model": "core.userprofile", "pk": 14, "fields": {"user": 14, "phone": "6309242479", "address": null, "profile_picture": "profile_pics/download_FewUmbq.jpeg", "updated_at": "2025-10-21T13:54:56.733Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 15, "fields": {"user": 15, "phone": "6309242479", "address": null, "profile_picture": "", "updated_at": "2025-10-22T04:56:12.356Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 16, "fields": {"user": 16, "phone": "6309242479", "address": null, "profile_picture": "", "updated_at": "2025-10-22T04:59:34.933Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 17, "fields": {"user": 17, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-22T05:09:09.587Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 18, "fields": {"user": 18, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-22T05:13:53.800Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 19, "fields": {"user": 19, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-22T05:21:26.134Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 20, "fields": {"user": 20, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-10-22T05:25:30.638Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 21, "fields": {"user": 21, "phone": "6309242479", "address": null, "profile_picture": "", "updated_at": "2025-10-22T05:46:26.608Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 22, "fields": {"user": 22, "phone": "6309242479", "address": null, "profile_picture": "", "updated_at": "2025-10-23T09:35:18.189Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 23, "fields": {"user": 23, "phone": "6309242479", "address": null, "profile_picture": "", "updated_at": "2025-10-23T08:45:22.666Z", "gender": "female", "account_type": "seller"}}, {"model": "core.userprofile", "pk": 24, "fields": {"user": 24, "phone": "8309835597", "address": null, "profile_picture": "", "updated_at": "2025-10-23T09:09:31.514Z", "gender": "male", "account_type": "seller"}}, {"model": "core.userprofile", "pk": 25, "fields": {"user": 25, "phone": "134567", "address": null, "profile_picture": "", "updated_at": "2025-10-23T09:21:22.520Z", "gender": "male", "account_type": "seller"}}, {"model": "core.userprofile", "pk": 26, "fields": {"user": 26, "phone": "6309242479", "address": null, "profile_picture": "", "updated_at": "2025-10-27T10:21:21.519Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 27, "fields": {"user": 27, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-11-15T04:48:29.418Z", "gender": "male", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 28, "fields": {"user": 28, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2025-11-15T04:50:01.207Z", "gender": "male", "account_type": "buyer"}}, {"model": "core.userprofile", "pk": 29, "fields": {"user": 29, "phone": "8309836008", "address": null, "profile_picture": "", "updated_at": "2026-05-23T11:36:24.178Z", "gender": "female", "account_type": "buyer"}}, {"model": "core.profile", "pk": 1, "fields": {"user": 14, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 2, "fields": {"user": 15, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 3, "fields": {"user": 16, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 4, "fields": {"user": 17, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 5, "fields": {"user": 18, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 6, "fields": {"user": 19, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 7, "fields": {"user": 20, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 8, "fields": {"user": 21, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 9, "fields": {"user": 22, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 10, "fields": {"user": 23, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 11, "fields": {"user": 24, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 12, "fields": {"user": 25, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 13, "fields": {"user": 26, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 14, "fields": {"user": 27, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 15, "fields": {"user": 28, "phone": "", "address": "", "profile_picture": ""}}, {"model": "core.profile", "pk": 16, "fields": {"user": 29, "phone": "", "address": "", "profile_picture": ""}}, {"model": "cart.cart", "pk": 65, "fields": {"user": 21, "product": 11, "quantity": 1, "added_at": "2025-10-22T06:05:30.810Z", "ordered": false}}, {"model": "cart.cart", "pk": 72, "fields": {"user": 22, "product": 7, "quantity": 1, "added_at": "2025-10-23T09:37:18.964Z", "ordered": false}}, {"model": "cart.cart", "pk": 73, "fields": {"user": 22, "product": 1, "quantity": 1, "added_at": "2025-10-23T09:37:36.451Z", "ordered": false}}, {"model": "cart.cart", "pk": 82, "fields": {"user": 2, "product": 2, "quantity": 1, "added_at": "2025-11-14T05:52:32.311Z", "ordered": false}}, {"model": "cart.cart", "pk": 83, "fields": {"user": 2, "product": 3, "quantity": 1, "added_at": "2025-11-14T05:53:18.297Z", "ordered": false}}, {"model": "cart.cart", "pk": 88, "fields": {"user": 29, "product": 15, "quantity": 1, "added_at": "2026-05-23T11:39:48.546Z", "ordered": false}}, {"model": "cart.address", "pk": 3, "fields": {"user": 6, "full_name": "gayathri", "phone": "8309836008", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 4, "fields": {"user": 2, "full_name": "gayathri", "phone": "8309836008", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 5, "fields": {"user": 2, "full_name": "malaika", "phone": "8309836008", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 6, "fields": {"user": 14, "full_name": "pavs", "phone": "6309242479", "address_line1": "123", "address_line2": "3456", "city": "on", "state": "ee", "pincode": "523225", "country": "India", "default": false}}, {"model": "cart.address", "pk": 7, "fields": {"user": 20, "full_name": "vijayalakshmi", "phone": "8309836008", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 8, "fields": {"user": 21, "full_name": "vijayalakshmi", "phone": "6309242479", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 9, "fields": {"user": 22, "full_name": "malaika", "phone": "6309242479", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 10, "fields": {"user": 5, "full_name": "pavani dontula", "phone": "6309242479", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 11, "fields": {"user": 28, "full_name": "gouwtham", "phone": "8309836008", "address_line1": "Rao and Naidu Engineering College,", "address_line2": "Ramnagar,ambedkar colony", "city": "ONGOLE", "state": "Andhra Pradesh", "pincode": "523001", "country": "India", "default": false}}, {"model": "cart.address", "pk": 12, "fields": {"user": 29, "full_name": "kavya.makineni", "phone": "8309836008", "address_line1": "kothapeta bazar", "address_line2": null, "city": "chimakurthy", "state": "Andhra Pradesh", "pincode": "523226", "country": "India", "default": false}}, {"model": "cart.order", "pk": 1, "fields": {"user": 6, "phone": null, "address": null, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T11:08:54.235Z", "status": "Pending"}}, {"model": "cart.order", "pk": 2, "fields": {"user": 6, "phone": null, "address": null, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T11:12:40.017Z", "status": "Pending"}}, {"model": "cart.order", "pk": 3, "fields": {"user": 6, "phone": null, "address": null, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T11:26:53.779Z", "status": "Pending"}}, {"model": "cart.order", "pk": 4, "fields": {"user": 6, "phone": null, "address": null, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T11:43:46.576Z", "status": "Pending"}}, {"model": "cart.order", "pk": 5, "fields": {"user": 6, "phone": null, "address": null, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T11:43:51.111Z", "status": "Pending"}}, {"model": "cart.order", "pk": 6, "fields": {"user": 6, "phone": null, "address": null, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T11:44:01.610Z", "status": "Pending"}}, {"model": "cart.order", "pk": 7, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T13:33:15.669Z", "status": "COD"}}, {"model": "cart.order", "pk": 8, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T13:40:19.724Z", "status": "COD"}}, {"model": "cart.order", "pk": 9, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T13:56:15.659Z", "status": "COD"}}, {"model": "cart.order", "pk": 10, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T13:57:07.520Z", "status": "COD"}}, {"model": "cart.order", "pk": 11, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-19T14:00:40.301Z", "status": "COD"}}, {"model": "cart.order", "pk": 12, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T03:54:39.479Z", "status": "COD"}}, {"model": "cart.order", "pk": 13, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:13:08.178Z", "status": "COD"}}, {"model": "cart.order", "pk": 14, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:13:29.709Z", "status": "COD"}}, {"model": "cart.order", "pk": 15, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:15:35.788Z", "status": "COD"}}, {"model": "cart.order", "pk": 16, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:17:17.884Z", "status": "COD"}}, {"model": "cart.order", "pk": 17, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:29:32.504Z", "status": "COD"}}, {"model": "cart.order", "pk": 18, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:48:24.706Z", "status": "COD"}}, {"model": "cart.order", "pk": 19, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:51:33.753Z", "status": "COD"}}, {"model": "cart.order", "pk": 20, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:56:56.718Z", "status": "COD"}}, {"model": "cart.order", "pk": 21, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T04:57:15.885Z", "status": "COD"}}, {"model": "cart.order", "pk": 22, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T05:37:30.969Z", "status": "COD"}}, {"model": "cart.order", "pk": 23, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T05:37:48.393Z", "status": "COD"}}, {"model": "cart.order", "pk": 24, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T05:40:36.031Z", "status": "COD"}}, {"model": "cart.order", "pk": 25, "fields": {"user": 2, "phone": null, "address": 5, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T05:41:33.834Z", "status": "COD"}}, {"model": "cart.order", "pk": 26, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T17:17:22.677Z", "status": "COD"}}, {"model": "cart.order", "pk": 27, "fields": {"user": 2, "phone": null, "address": 5, "payment_method": "COD", "total": "0.00", "created_at": "2025-10-20T17:18:08.264Z", "status": "COD"}}, {"model": "cart.order", "pk": 28, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "599.00", "created_at": "2025-10-21T05:02:33.299Z", "status": "Pending"}}, {"model": "cart.order", "pk": 29, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "499.00", "created_at": "2025-10-21T05:03:51.485Z", "status": "Pending"}}, {"model": "cart.order", "pk": 30, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "1400.00", "created_at": "2025-10-21T05:04:39.013Z", "status": "Pending"}}, {"model": "cart.order", "pk": 31, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "3399.00", "created_at": "2025-10-21T13:27:18.809Z", "status": "Pending"}}, {"model": "cart.order", "pk": 32, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "1497.00", "created_at": "2025-10-21T13:28:47.749Z", "status": "Pending"}}, {"model": "cart.order", "pk": 33, "fields": {"user": 6, "phone": null, "address": 3, "payment_method": "COD", "total": "2000.00", "created_at": "2025-10-21T13:29:05.134Z", "status": "Pending"}}, {"model": "cart.order", "pk": 34, "fields": {"user": 14, "phone": null, "address": 6, "payment_method": "COD", "total": "1399.00", "created_at": "2025-10-21T13:57:04.670Z", "status": "Pending"}}, {"model": "cart.order", "pk": 35, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "3000.00", "created_at": "2025-10-21T14:14:44.926Z", "status": "Pending"}}, {"model": "cart.order", "pk": 36, "fields": {"user": 14, "phone": null, "address": 6, "payment_method": "COD", "total": "2000.00", "created_at": "2025-10-22T02:53:49.598Z", "status": "Pending"}}, {"model": "cart.order", "pk": 37, "fields": {"user": 20, "phone": null, "address": 7, "payment_method": "Online", "total": "700.00", "created_at": "2025-10-22T05:28:40.118Z", "status": "Pending"}}, {"model": "cart.order", "pk": 38, "fields": {"user": 21, "phone": null, "address": 8, "payment_method": "COD", "total": "3000.00", "created_at": "2025-10-22T05:48:22.447Z", "status": "Pending"}}, {"model": "cart.order", "pk": 39, "fields": {"user": 21, "phone": null, "address": 8, "payment_method": "COD", "total": "350.00", "created_at": "2025-10-22T06:04:26.448Z", "status": "Pending"}}, {"model": "cart.order", "pk": 40, "fields": {"user": 22, "phone": null, "address": 9, "payment_method": "COD", "total": "999.00", "created_at": "2025-10-23T08:39:10.316Z", "status": "Pending"}}, {"model": "cart.order", "pk": 41, "fields": {"user": 22, "phone": null, "address": 9, "payment_method": "COD", "total": "2000.00", "created_at": "2025-10-23T08:49:00.483Z", "status": "Pending"}}, {"model": "cart.order", "pk": 42, "fields": {"user": 22, "phone": null, "address": 9, "payment_method": "COD", "total": "600.00", "created_at": "2025-10-23T09:03:46.780Z", "status": "Pending"}}, {"model": "cart.order", "pk": 43, "fields": {"user": 5, "phone": null, "address": 10, "payment_method": "COD", "total": "350.00", "created_at": "2025-10-27T10:11:29.113Z", "status": "Pending"}}, {"model": "cart.order", "pk": 44, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "1399.00", "created_at": "2025-10-30T09:56:15.431Z", "status": "Pending"}}, {"model": "cart.order", "pk": 45, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "4400.00", "created_at": "2025-10-30T10:28:50.096Z", "status": "Pending"}}, {"model": "cart.order", "pk": 46, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "599.00", "created_at": "2025-10-31T04:50:24.894Z", "status": "Pending"}}, {"model": "cart.order", "pk": 47, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "599.00", "created_at": "2025-11-08T08:55:32.703Z", "status": "Pending"}}, {"model": "cart.order", "pk": 48, "fields": {"user": 2, "phone": null, "address": 4, "payment_method": "COD", "total": "700.00", "created_at": "2025-11-14T05:53:40.960Z", "status": "Pending"}}, {"model": "cart.order", "pk": 49, "fields": {"user": 28, "phone": null, "address": 11, "payment_method": "COD", "total": "5900.00", "created_at": "2025-11-15T04:52:53.908Z", "status": "Pending"}}, {"model": "cart.order", "pk": 50, "fields": {"user": 29, "phone": null, "address": 12, "payment_method": "COD", "total": "2200.00", "created_at": "2026-05-23T11:40:58.762Z", "status": "Pending"}}, {"model": "cart.orderitem", "pk": 1, "fields": {"order": 1, "product": 2, "quantity": 2, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 2, "fields": {"order": 2, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 3, "fields": {"order": 3, "product": 7, "quantity": 1, "price": "499.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 4, "fields": {"order": 4, "product": 8, "quantity": 1, "price": "600.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 5, "fields": {"order": 5, "product": 9, "quantity": 1, "price": "599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 6, "fields": {"order": 5, "product": 6, "quantity": 2, "price": "1599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 7, "fields": {"order": 5, "product": 7, "quantity": 1, "price": "499.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 8, "fields": {"order": 6, "product": 8, "quantity": 1, "price": "600.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 9, "fields": {"order": 8, "product": 8, "quantity": 1, "price": "600.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 10, "fields": {"order": 8, "product": 4, "quantity": 1, "price": "700.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 11, "fields": {"order": 8, "product": 7, "quantity": 1, "price": "499.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 12, "fields": {"order": 9, "product": 6, "quantity": 1, "price": "1599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 13, "fields": {"order": 10, "product": 5, "quantity": 1, "price": "90.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 14, "fields": {"order": 11, "product": 9, "quantity": 1, "price": "599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 15, "fields": {"order": 12, "product": 4, "quantity": 1, "price": "700.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 16, "fields": {"order": 12, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 17, "fields": {"order": 12, "product": 7, "quantity": 1, "price": "499.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 18, "fields": {"order": 12, "product": 6, "quantity": 1, "price": "1599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 19, "fields": {"order": 12, "product": 1, "quantity": 1, "price": "599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 20, "fields": {"order": 12, "product": 5, "quantity": 1, "price": "90.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 21, "fields": {"order": 12, "product": 3, "quantity": 2, "price": "2000.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 22, "fields": {"order": 13, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 23, "fields": {"order": 14, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 24, "fields": {"order": 15, "product": 4, "quantity": 1, "price": "700.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 25, "fields": {"order": 16, "product": 9, "quantity": 1, "price": "599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 26, "fields": {"order": 17, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 27, "fields": {"order": 17, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 28, "fields": {"order": 18, "product": 1, "quantity": 2, "price": "599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 29, "fields": {"order": 19, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 30, "fields": {"order": 19, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 31, "fields": {"order": 20, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 32, "fields": {"order": 20, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 33, "fields": {"order": 20, "product": 1, "quantity": 1, "price": "599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 34, "fields": {"order": 21, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 35, "fields": {"order": 22, "product": 5, "quantity": 2, "price": "90.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 36, "fields": {"order": 23, "product": 10, "quantity": 1, "price": "500.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 37, "fields": {"order": 23, "product": 9, "quantity": 1, "price": "599.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 38, "fields": {"order": 24, "product": 10, "quantity": 1, "price": "500.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 39, "fields": {"order": 25, "product": 4, "quantity": 1, "price": "700.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 40, "fields": {"order": 25, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 41, "fields": {"order": 26, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 42, "fields": {"order": 27, "product": 4, "quantity": 1, "price": "700.00", "subtotal": "0.00"}}, {"model": "cart.orderitem", "pk": 43, "fields": {"order": 28, "product": 1, "quantity": 1, "price": "599.00", "subtotal": "599.00"}}, {"model": "cart.orderitem", "pk": 44, "fields": {"order": 29, "product": 7, "quantity": 1, "price": "499.00", "subtotal": "499.00"}}, {"model": "cart.orderitem", "pk": 45, "fields": {"order": 30, "product": 4, "quantity": 2, "price": "700.00", "subtotal": "1400.00"}}, {"model": "cart.orderitem", "pk": 46, "fields": {"order": 31, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "2000.00"}}, {"model": "cart.orderitem", "pk": 47, "fields": {"order": 31, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "1399.00"}}, {"model": "cart.orderitem", "pk": 48, "fields": {"order": 32, "product": 7, "quantity": 3, "price": "499.00", "subtotal": "1497.00"}}, {"model": "cart.orderitem", "pk": 49, "fields": {"order": 33, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "2000.00"}}, {"model": "cart.orderitem", "pk": 50, "fields": {"order": 34, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "1399.00"}}, {"model": "cart.orderitem", "pk": 51, "fields": {"order": 35, "product": 13, "quantity": 1, "price": "3000.00", "subtotal": "3000.00"}}, {"model": "cart.orderitem", "pk": 52, "fields": {"order": 36, "product": 3, "quantity": 1, "price": "2000.00", "subtotal": "2000.00"}}, {"model": "cart.orderitem", "pk": 53, "fields": {"order": 37, "product": 4, "quantity": 1, "price": "700.00", "subtotal": "700.00"}}, {"model": "cart.orderitem", "pk": 54, "fields": {"order": 38, "product": 13, "quantity": 1, "price": "3000.00", "subtotal": "3000.00"}}, {"model": "cart.orderitem", "pk": 55, "fields": {"order": 39, "product": 15, "quantity": 1, "price": "350.00", "subtotal": "350.00"}}, {"model": "cart.orderitem", "pk": 56, "fields": {"order": 40, "product": 14, "quantity": 1, "price": "999.00", "subtotal": "999.00"}}, {"model": "cart.orderitem", "pk": 58, "fields": {"order": 42, "product": 8, "quantity": 1, "price": "600.00", "subtotal": "600.00"}}, {"model": "cart.orderitem", "pk": 59, "fields": {"order": 43, "product": 15, "quantity": 1, "price": "350.00", "subtotal": "350.00"}}, {"model": "cart.orderitem", "pk": 60, "fields": {"order": 44, "product": 2, "quantity": 1, "price": "1399.00", "subtotal": "1399.00"}}, {"model": "cart.orderitem", "pk": 61, "fields": {"order": 45, "product": 11, "quantity": 2, "price": "2200.00", "subtotal": "4400.00"}}, {"model": "cart.orderitem", "pk": 62, "fields": {"order": 46, "product": 1, "quantity": 1, "price": "599.00", "subtotal": "599.00"}}, {"model": "cart.orderitem", "pk": 63, "fields": {"order": 47, "product": 1, "quantity": 1, "price": "599.00", "subtotal": "599.00"}}, {"model": "cart.orderitem", "pk": 64, "fields": {"order": 48, "product": 4, "quantity": 1, "price": "700.00", "subtotal": "700.00"}}, {"model": "cart.orderitem", "pk": 65, "fields": {"order": 49, "product": 13, "quantity": 1, "price": "3000.00", "subtotal": "3000.00"}}, {"model": "cart.orderitem", "pk": 66, "fields": {"order": 49, "product": 15, "quantity": 2, "price": "350.00", "subtotal": "700.00"}}, {"model": "cart.orderitem", "pk": 67, "fields": {"order": 49, "product": 11, "quantity": 1, "price": "2200.00", "subtotal": "2200.00"}}, {"model": "cart.orderitem", "pk": 68, "fields": {"order": 50, "product": 11, "quantity": 1, "price": "2200.00", "subtotal": "2200.00"}}]
+[
+{
+  "model": "cart.cart",
+  "pk": 65,
+  "fields": {
+    "user": 21,
+    "product": 11,
+    "quantity": 1,
+    "added_at": "2025-10-22T06:05:30.810Z",
+    "ordered": false
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 72,
+  "fields": {
+    "user": 22,
+    "product": 7,
+    "quantity": 1,
+    "added_at": "2025-10-23T09:37:18.964Z",
+    "ordered": false
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 73,
+  "fields": {
+    "user": 22,
+    "product": 1,
+    "quantity": 1,
+    "added_at": "2025-10-23T09:37:36.451Z",
+    "ordered": false
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 82,
+  "fields": {
+    "user": 2,
+    "product": 2,
+    "quantity": 1,
+    "added_at": "2025-11-14T05:52:32.311Z",
+    "ordered": false
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 83,
+  "fields": {
+    "user": 2,
+    "product": 3,
+    "quantity": 1,
+    "added_at": "2025-11-14T05:53:18.297Z",
+    "ordered": false
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 88,
+  "fields": {
+    "user": 29,
+    "product": 15,
+    "quantity": 1,
+    "added_at": "2026-05-23T11:39:48.546Z",
+    "ordered": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "full_name": "gayathri",
+    "phone": "8309836008",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "full_name": "gayathri",
+    "phone": "8309836008",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "full_name": "malaika",
+    "phone": "8309836008",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 6,
+  "fields": {
+    "user": 14,
+    "full_name": "pavs",
+    "phone": "6309242479",
+    "address_line1": "123",
+    "address_line2": "3456",
+    "city": "on",
+    "state": "ee",
+    "pincode": "523225",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 7,
+  "fields": {
+    "user": 20,
+    "full_name": "vijayalakshmi",
+    "phone": "8309836008",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 8,
+  "fields": {
+    "user": 21,
+    "full_name": "vijayalakshmi",
+    "phone": "6309242479",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 9,
+  "fields": {
+    "user": 22,
+    "full_name": "malaika",
+    "phone": "6309242479",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 10,
+  "fields": {
+    "user": 5,
+    "full_name": "pavani dontula",
+    "phone": "6309242479",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 11,
+  "fields": {
+    "user": 28,
+    "full_name": "gouwtham",
+    "phone": "8309836008",
+    "address_line1": "Rao and Naidu Engineering College,",
+    "address_line2": "Ramnagar,ambedkar colony",
+    "city": "ONGOLE",
+    "state": "Andhra Pradesh",
+    "pincode": "523001",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.address",
+  "pk": 12,
+  "fields": {
+    "user": 29,
+    "full_name": "kavya.makineni",
+    "phone": "8309836008",
+    "address_line1": "kothapeta bazar",
+    "address_line2": null,
+    "city": "chimakurthy",
+    "state": "Andhra Pradesh",
+    "pincode": "523226",
+    "country": "India",
+    "default": false
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 1,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": null,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T11:08:54.235Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 2,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": null,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T11:12:40.017Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": null,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T11:26:53.779Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 4,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": null,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T11:43:46.576Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 5,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": null,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T11:43:51.111Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": null,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T11:44:01.610Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 7,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T13:33:15.669Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 8,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T13:40:19.724Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 9,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T13:56:15.659Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 10,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T13:57:07.520Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 11,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-19T14:00:40.301Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 12,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T03:54:39.479Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 13,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:13:08.178Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 14,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:13:29.709Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 15,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:15:35.788Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 16,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:17:17.884Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 17,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:29:32.504Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 18,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:48:24.706Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 19,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:51:33.753Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 20,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:56:56.718Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 21,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T04:57:15.885Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 22,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T05:37:30.969Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 23,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T05:37:48.393Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 24,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T05:40:36.031Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 25,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 5,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T05:41:33.834Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 26,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T17:17:22.677Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 27,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 5,
+    "payment_method": "COD",
+    "total": "0.00",
+    "created_at": "2025-10-20T17:18:08.264Z",
+    "status": "COD"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 28,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "599.00",
+    "created_at": "2025-10-21T05:02:33.299Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 29,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "499.00",
+    "created_at": "2025-10-21T05:03:51.485Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 30,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "1400.00",
+    "created_at": "2025-10-21T05:04:39.013Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 31,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "3399.00",
+    "created_at": "2025-10-21T13:27:18.809Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 32,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "1497.00",
+    "created_at": "2025-10-21T13:28:47.749Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 33,
+  "fields": {
+    "user": 6,
+    "phone": null,
+    "address": 3,
+    "payment_method": "COD",
+    "total": "2000.00",
+    "created_at": "2025-10-21T13:29:05.134Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 34,
+  "fields": {
+    "user": 14,
+    "phone": null,
+    "address": 6,
+    "payment_method": "COD",
+    "total": "1399.00",
+    "created_at": "2025-10-21T13:57:04.670Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 35,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "3000.00",
+    "created_at": "2025-10-21T14:14:44.926Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 36,
+  "fields": {
+    "user": 14,
+    "phone": null,
+    "address": 6,
+    "payment_method": "COD",
+    "total": "2000.00",
+    "created_at": "2025-10-22T02:53:49.598Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 37,
+  "fields": {
+    "user": 20,
+    "phone": null,
+    "address": 7,
+    "payment_method": "Online",
+    "total": "700.00",
+    "created_at": "2025-10-22T05:28:40.118Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 38,
+  "fields": {
+    "user": 21,
+    "phone": null,
+    "address": 8,
+    "payment_method": "COD",
+    "total": "3000.00",
+    "created_at": "2025-10-22T05:48:22.447Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 39,
+  "fields": {
+    "user": 21,
+    "phone": null,
+    "address": 8,
+    "payment_method": "COD",
+    "total": "350.00",
+    "created_at": "2025-10-22T06:04:26.448Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 40,
+  "fields": {
+    "user": 22,
+    "phone": null,
+    "address": 9,
+    "payment_method": "COD",
+    "total": "999.00",
+    "created_at": "2025-10-23T08:39:10.316Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 41,
+  "fields": {
+    "user": 22,
+    "phone": null,
+    "address": 9,
+    "payment_method": "COD",
+    "total": "2000.00",
+    "created_at": "2025-10-23T08:49:00.483Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 42,
+  "fields": {
+    "user": 22,
+    "phone": null,
+    "address": 9,
+    "payment_method": "COD",
+    "total": "600.00",
+    "created_at": "2025-10-23T09:03:46.780Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 43,
+  "fields": {
+    "user": 5,
+    "phone": null,
+    "address": 10,
+    "payment_method": "COD",
+    "total": "350.00",
+    "created_at": "2025-10-27T10:11:29.113Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 44,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "1399.00",
+    "created_at": "2025-10-30T09:56:15.431Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 45,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "4400.00",
+    "created_at": "2025-10-30T10:28:50.096Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 46,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "599.00",
+    "created_at": "2025-10-31T04:50:24.894Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 47,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "599.00",
+    "created_at": "2025-11-08T08:55:32.703Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 48,
+  "fields": {
+    "user": 2,
+    "phone": null,
+    "address": 4,
+    "payment_method": "COD",
+    "total": "700.00",
+    "created_at": "2025-11-14T05:53:40.960Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 49,
+  "fields": {
+    "user": 28,
+    "phone": null,
+    "address": 11,
+    "payment_method": "COD",
+    "total": "5900.00",
+    "created_at": "2025-11-15T04:52:53.908Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.order",
+  "pk": 50,
+  "fields": {
+    "user": 29,
+    "phone": null,
+    "address": 12,
+    "payment_method": "COD",
+    "total": "2200.00",
+    "created_at": "2026-05-23T11:40:58.762Z",
+    "status": "Pending"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 2,
+    "quantity": 2,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "product": 7,
+    "quantity": 1,
+    "price": "499.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 4,
+    "product": 8,
+    "quantity": 1,
+    "price": "600.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 5,
+    "product": 9,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 5,
+    "product": 6,
+    "quantity": 2,
+    "price": "1599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 5,
+    "product": 7,
+    "quantity": 1,
+    "price": "499.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 6,
+    "product": 8,
+    "quantity": 1,
+    "price": "600.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 8,
+    "product": 8,
+    "quantity": 1,
+    "price": "600.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 8,
+    "product": 4,
+    "quantity": 1,
+    "price": "700.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 8,
+    "product": 7,
+    "quantity": 1,
+    "price": "499.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 9,
+    "product": 6,
+    "quantity": 1,
+    "price": "1599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 10,
+    "product": 5,
+    "quantity": 1,
+    "price": "90.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 11,
+    "product": 9,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 12,
+    "product": 4,
+    "quantity": 1,
+    "price": "700.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 12,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 12,
+    "product": 7,
+    "quantity": 1,
+    "price": "499.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 12,
+    "product": 6,
+    "quantity": 1,
+    "price": "1599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 12,
+    "product": 1,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 12,
+    "product": 5,
+    "quantity": 1,
+    "price": "90.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 12,
+    "product": 3,
+    "quantity": 2,
+    "price": "2000.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 13,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 23,
+  "fields": {
+    "order": 14,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 24,
+  "fields": {
+    "order": 15,
+    "product": 4,
+    "quantity": 1,
+    "price": "700.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 16,
+    "product": 9,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 17,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 17,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 28,
+  "fields": {
+    "order": 18,
+    "product": 1,
+    "quantity": 2,
+    "price": "599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 29,
+  "fields": {
+    "order": 19,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 30,
+  "fields": {
+    "order": 19,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 31,
+  "fields": {
+    "order": 20,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 32,
+  "fields": {
+    "order": 20,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 33,
+  "fields": {
+    "order": 20,
+    "product": 1,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 34,
+  "fields": {
+    "order": 21,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 35,
+  "fields": {
+    "order": 22,
+    "product": 5,
+    "quantity": 2,
+    "price": "90.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 36,
+  "fields": {
+    "order": 23,
+    "product": 10,
+    "quantity": 1,
+    "price": "500.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 37,
+  "fields": {
+    "order": 23,
+    "product": 9,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 38,
+  "fields": {
+    "order": 24,
+    "product": 10,
+    "quantity": 1,
+    "price": "500.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 39,
+  "fields": {
+    "order": 25,
+    "product": 4,
+    "quantity": 1,
+    "price": "700.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 40,
+  "fields": {
+    "order": 25,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 41,
+  "fields": {
+    "order": 26,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 42,
+  "fields": {
+    "order": 27,
+    "product": 4,
+    "quantity": 1,
+    "price": "700.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 43,
+  "fields": {
+    "order": 28,
+    "product": 1,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "599.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 44,
+  "fields": {
+    "order": 29,
+    "product": 7,
+    "quantity": 1,
+    "price": "499.00",
+    "subtotal": "499.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 45,
+  "fields": {
+    "order": 30,
+    "product": 4,
+    "quantity": 2,
+    "price": "700.00",
+    "subtotal": "1400.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 46,
+  "fields": {
+    "order": 31,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "2000.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 47,
+  "fields": {
+    "order": 31,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "1399.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 48,
+  "fields": {
+    "order": 32,
+    "product": 7,
+    "quantity": 3,
+    "price": "499.00",
+    "subtotal": "1497.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 49,
+  "fields": {
+    "order": 33,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "2000.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 50,
+  "fields": {
+    "order": 34,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "1399.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 51,
+  "fields": {
+    "order": 35,
+    "product": 13,
+    "quantity": 1,
+    "price": "3000.00",
+    "subtotal": "3000.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 52,
+  "fields": {
+    "order": 36,
+    "product": 3,
+    "quantity": 1,
+    "price": "2000.00",
+    "subtotal": "2000.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 53,
+  "fields": {
+    "order": 37,
+    "product": 4,
+    "quantity": 1,
+    "price": "700.00",
+    "subtotal": "700.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 54,
+  "fields": {
+    "order": 38,
+    "product": 13,
+    "quantity": 1,
+    "price": "3000.00",
+    "subtotal": "3000.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 55,
+  "fields": {
+    "order": 39,
+    "product": 15,
+    "quantity": 1,
+    "price": "350.00",
+    "subtotal": "350.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 56,
+  "fields": {
+    "order": 40,
+    "product": 14,
+    "quantity": 1,
+    "price": "999.00",
+    "subtotal": "999.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 58,
+  "fields": {
+    "order": 42,
+    "product": 8,
+    "quantity": 1,
+    "price": "600.00",
+    "subtotal": "600.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 59,
+  "fields": {
+    "order": 43,
+    "product": 15,
+    "quantity": 1,
+    "price": "350.00",
+    "subtotal": "350.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 60,
+  "fields": {
+    "order": 44,
+    "product": 2,
+    "quantity": 1,
+    "price": "1399.00",
+    "subtotal": "1399.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 61,
+  "fields": {
+    "order": 45,
+    "product": 11,
+    "quantity": 2,
+    "price": "2200.00",
+    "subtotal": "4400.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 62,
+  "fields": {
+    "order": 46,
+    "product": 1,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "599.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 63,
+  "fields": {
+    "order": 47,
+    "product": 1,
+    "quantity": 1,
+    "price": "599.00",
+    "subtotal": "599.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 64,
+  "fields": {
+    "order": 48,
+    "product": 4,
+    "quantity": 1,
+    "price": "700.00",
+    "subtotal": "700.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 65,
+  "fields": {
+    "order": 49,
+    "product": 13,
+    "quantity": 1,
+    "price": "3000.00",
+    "subtotal": "3000.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 66,
+  "fields": {
+    "order": 49,
+    "product": 15,
+    "quantity": 2,
+    "price": "350.00",
+    "subtotal": "700.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 67,
+  "fields": {
+    "order": 49,
+    "product": 11,
+    "quantity": 1,
+    "price": "2200.00",
+    "subtotal": "2200.00"
+  }
+},
+{
+  "model": "cart.orderitem",
+  "pk": 68,
+  "fields": {
+    "order": 50,
+    "product": 11,
+    "quantity": 1,
+    "price": "2200.00",
+    "subtotal": "2200.00"
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 1,
+  "fields": {
+    "user": 6,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "an artist of handmade knitting items",
+    "profile_picture": "profile_pics/handbag.jpeg",
+    "rating": 4.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 2,
+  "fields": {
+    "user": 5,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "kalamkari artist",
+    "profile_picture": "profile_pics/kalamkarisaree.jpeg",
+    "rating": 5.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "full_name": "gayathri",
+    "store_name": "kala_store",
+    "location": "chimakurthy",
+    "bio": "painter",
+    "profile_picture": "profile_pics/painting.jpeg",
+    "rating": 5.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "a professional wall artist",
+    "profile_picture": "profile_pics/wallart.jpeg",
+    "rating": 5.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 5,
+  "fields": {
+    "user": 7,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "clay artist",
+    "profile_picture": "profile_pics/claylamp.jpeg",
+    "rating": 4.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 6,
+  "fields": {
+    "user": 9,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "marble artist",
+    "profile_picture": "profile_pics/marbleart.jpeg",
+    "rating": 4.5
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 7,
+  "fields": {
+    "user": 13,
+    "full_name": "",
+    "store_name": "",
+    "location": "",
+    "bio": "",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 8,
+  "fields": {
+    "user": 11,
+    "full_name": "durga",
+    "store_name": "durga_store",
+    "location": "ongole",
+    "bio": "local artist",
+    "profile_picture": "profile_pics/Creativity_Inc.jpg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 9,
+  "fields": {
+    "user": 14,
+    "full_name": "pavani dontula",
+    "store_name": "pavani_store",
+    "location": "ong",
+    "bio": "saree lover",
+    "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 10,
+  "fields": {
+    "user": 20,
+    "full_name": "priyanka",
+    "store_name": "priya_made",
+    "location": "chirala",
+    "bio": "",
+    "profile_picture": "profile_pics/images.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 11,
+  "fields": {
+    "user": 21,
+    "full_name": "vijayalakshmi",
+    "store_name": "vijaya_arts",
+    "location": "chimakurthy",
+    "bio": "made with pure sandlewood",
+    "profile_picture": "profile_pics/wooden_ganesh.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 12,
+  "fields": {
+    "user": 23,
+    "full_name": "thulasi_kalva",
+    "store_name": "thulasi_store",
+    "location": "ongole",
+    "bio": "",
+    "profile_picture": "profile_pics/_8adc4cb4-9012-437f-9704-b38058802834_mHEwR3B.jpeg",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 13,
+  "fields": {
+    "user": 24,
+    "full_name": "pavani dontula",
+    "store_name": "pavanistore",
+    "location": "ong",
+    "bio": "",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 14,
+  "fields": {
+    "user": 25,
+    "full_name": "ganesh",
+    "store_name": "text",
+    "location": "ongole",
+    "bio": "nothing",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.sellerprofile",
+  "pk": 15,
+  "fields": {
+    "user": 22,
+    "full_name": "pavani dontula",
+    "store_name": "pavanistoree",
+    "location": "ongole",
+    "bio": "",
+    "profile_picture": "",
+    "rating": 0.0
+  }
+},
+{
+  "model": "core.category",
+  "pk": 1,
+  "fields": {
+    "name": "knitting"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 2,
+  "fields": {
+    "name": "clothing"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 3,
+  "fields": {
+    "name": "painting"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 4,
+  "fields": {
+    "name": "wall art"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 5,
+  "fields": {
+    "name": "clay arts"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 6,
+  "fields": {
+    "name": "marble arts"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 7,
+  "fields": {
+    "name": "wooden art"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 8,
+  "fields": {
+    "name": "Embroidery"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 9,
+  "fields": {
+    "name": "Jewelry"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 10,
+  "fields": {
+    "name": "Handloom"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 11,
+  "fields": {
+    "name": "Metal Crafts"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 12,
+  "fields": {
+    "name": "Sculpture"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 1,
+  "fields": {
+    "name": "Andhra Pradesh",
+    "image": "region_images/andhrapradesh.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 2,
+  "fields": {
+    "name": "Tamilnadu",
+    "image": "region_images/tamilnadu.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 3,
+  "fields": {
+    "name": "Karnataka",
+    "image": "region_images/karnataka.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 4,
+  "fields": {
+    "name": "Telangana",
+    "image": "region_images/telangana.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 5,
+  "fields": {
+    "name": "Maharashtra",
+    "image": "region_images/maharastra.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 6,
+  "fields": {
+    "name": "kerala",
+    "image": "region_images/kerala.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 7,
+  "fields": {
+    "name": "Gujarat",
+    "image": "region_images/gujarat.jpeg"
+  }
+},
+{
+  "model": "core.region",
+  "pk": 8,
+  "fields": {
+    "name": "WestBengal",
+    "image": "region_images/westbengal.jpeg"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 1,
+  "fields": {
+    "seller": 1,
+    "name": "handbag",
+    "description": "a handmade knitted woollen handbag",
+    "price": "599.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/handbag.jpeg",
+    "category": 1,
+    "region": 3,
+    "created_at": "2025-08-13T16:47:46.057Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 2,
+  "fields": {
+    "seller": 2,
+    "name": "kalamakari saree",
+    "description": "a kalamkari handpanited saree",
+    "price": "1399.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/kalamkarisaree.jpeg",
+    "category": 2,
+    "region": 1,
+    "created_at": "2025-08-13T17:08:07.165Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 3,
+  "fields": {
+    "seller": 3,
+    "name": "buddha painting",
+    "description": "a painting of buddha",
+    "price": "2000.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/painting.jpeg",
+    "category": 3,
+    "region": 7,
+    "created_at": "2025-08-13T17:09:13.705Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 4,
+  "fields": {
+    "seller": 4,
+    "name": "ganapathi wall art",
+    "description": "a beautiful modern wall art",
+    "price": "700.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/wallart.jpeg",
+    "category": 4,
+    "region": 5,
+    "created_at": "2025-08-13T17:12:09.587Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 5,
+  "fields": {
+    "seller": 5,
+    "name": "clay lamp",
+    "description": "handmade clay lamp",
+    "price": "90.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/claylamp.jpeg",
+    "category": 5,
+    "region": 1,
+    "created_at": "2025-08-13T17:19:27.092Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 6,
+  "fields": {
+    "seller": 6,
+    "name": "flower vas",
+    "description": "a beautiful marble art",
+    "price": "1599.00",
+    "mrp": null,
+    "material": null,
+    "color": null,
+    "quantity": null,
+    "image": "product_images/marbleart.jpeg",
+    "category": 6,
+    "region": 8,
+    "created_at": "2025-08-13T17:21:13.742Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 7,
+  "fields": {
+    "seller": 1,
+    "name": "hat",
+    "description": "handmade knitted hat",
+    "price": "499.00",
+    "mrp": null,
+    "material": "woolen",
+    "color": "light pink",
+    "quantity": "1",
+    "image": "product_images/hat.jpeg",
+    "category": 1,
+    "region": 6,
+    "created_at": "2025-08-13T17:22:09.067Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 8,
+  "fields": {
+    "seller": 1,
+    "name": "wooden kitchen items",
+    "description": "handcrafted wooden kitchen items",
+    "price": "600.00",
+    "mrp": null,
+    "material": "wooden",
+    "color": "brown",
+    "quantity": "1",
+    "image": "product_images/woodenart.jpeg",
+    "category": 7,
+    "region": 2,
+    "created_at": "2025-08-14T08:45:49.076Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 9,
+  "fields": {
+    "seller": 2,
+    "name": "terracotpot",
+    "description": "a handmade terracotpot",
+    "price": "599.00",
+    "mrp": null,
+    "material": "clay",
+    "color": "reddish brown",
+    "quantity": "1",
+    "image": "product_images/terracot1.jpg",
+    "category": 5,
+    "region": 1,
+    "created_at": "2025-08-14T09:19:32.405Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 10,
+  "fields": {
+    "seller": 1,
+    "name": "elephant  clay doll",
+    "description": "beautiful handmade elephant with clay",
+    "price": "500.00",
+    "mrp": null,
+    "material": "clay",
+    "color": "brown",
+    "quantity": "1",
+    "image": "product_images/westbengal.jpeg",
+    "category": 5,
+    "region": 4,
+    "created_at": "2025-08-22T04:54:57.913Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 11,
+  "fields": {
+    "seller": 9,
+    "name": "pattu saree",
+    "description": "hand weaved pure pattu",
+    "price": "2200.00",
+    "mrp": "2400.00",
+    "material": "pattu",
+    "color": "gold and pink",
+    "quantity": "1",
+    "image": "product_images/pattusaree.jpeg",
+    "category": 2,
+    "region": 2,
+    "created_at": "2025-10-21T14:05:09.950Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 13,
+  "fields": {
+    "seller": 9,
+    "name": "kanchipattu saree",
+    "description": "pure kanichipattu saree",
+    "price": "3000.00",
+    "mrp": "3500.00",
+    "material": "kanchipattu",
+    "color": "violet",
+    "quantity": "1",
+    "image": "product_images/kanchipattusaree.jpeg",
+    "category": 2,
+    "region": 2,
+    "created_at": "2025-10-21T14:11:21.527Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 14,
+  "fields": {
+    "seller": 10,
+    "name": "stone saraswathi idol",
+    "description": "white stone hand made idol",
+    "price": "999.00",
+    "mrp": "1100.00",
+    "material": "stone",
+    "color": "white",
+    "quantity": "1",
+    "image": "product_images/stoneart.jpeg",
+    "category": 6,
+    "region": 3,
+    "created_at": "2025-10-22T05:38:56.341Z"
+  }
+},
+{
+  "model": "core.product",
+  "pk": 15,
+  "fields": {
+    "seller": 11,
+    "name": "sandlewood ganesh",
+    "description": "pure sandlewood and waterproof",
+    "price": "350.00",
+    "mrp": "400.00",
+    "material": "wooden",
+    "color": "sandle",
+    "quantity": "4",
+    "image": "product_images/wooden_ganesh.jpeg",
+    "category": 7,
+    "region": 1,
+    "created_at": "2025-10-22T05:59:35.111Z"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": 5,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 4,
+  "fields": {
+    "user": 6,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-21T05:04:21.436Z",
+    "gender": "Female",
+    "account_type": "Seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 5,
+  "fields": {
+    "user": 7,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 6,
+  "fields": {
+    "user": 8,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Male",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 7,
+  "fields": {
+    "user": 10,
+    "phone": "9553637008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 8,
+  "fields": {
+    "user": 11,
+    "phone": "8688408742",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "Female",
+    "account_type": "Buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 9,
+  "fields": {
+    "user": 12,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 10,
+  "fields": {
+    "user": 13,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "phone": null,
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": null,
+    "account_type": null
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 12,
+  "fields": {
+    "user": 2,
+    "phone": "8309836008",
+    "address": "",
+    "profile_picture": "profile_pics/download_TF7ofQm.jpeg",
+    "updated_at": "2025-11-14T16:24:37.872Z",
+    "gender": null,
+    "account_type": null
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 13,
+  "fields": {
+    "user": 9,
+    "phone": null,
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-20T10:19:51.920Z",
+    "gender": null,
+    "account_type": null
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 14,
+  "fields": {
+    "user": 14,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "profile_pics/download_FewUmbq.jpeg",
+    "updated_at": "2025-10-21T13:54:56.733Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 15,
+  "fields": {
+    "user": 15,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T04:56:12.356Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 16,
+  "fields": {
+    "user": 16,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T04:59:34.933Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 17,
+  "fields": {
+    "user": 17,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:09:09.587Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 18,
+  "fields": {
+    "user": 18,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:13:53.800Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 19,
+  "fields": {
+    "user": 19,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:21:26.134Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 20,
+  "fields": {
+    "user": 20,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:25:30.638Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 21,
+  "fields": {
+    "user": 21,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-22T05:46:26.608Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 22,
+  "fields": {
+    "user": 22,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T09:35:18.189Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 23,
+  "fields": {
+    "user": 23,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T08:45:22.666Z",
+    "gender": "female",
+    "account_type": "seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 24,
+  "fields": {
+    "user": 24,
+    "phone": "8309835597",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T09:09:31.514Z",
+    "gender": "male",
+    "account_type": "seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 25,
+  "fields": {
+    "user": 25,
+    "phone": "134567",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-23T09:21:22.520Z",
+    "gender": "male",
+    "account_type": "seller"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 26,
+  "fields": {
+    "user": 26,
+    "phone": "6309242479",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-10-27T10:21:21.519Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 27,
+  "fields": {
+    "user": 27,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-11-15T04:48:29.418Z",
+    "gender": "male",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 28,
+  "fields": {
+    "user": 28,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2025-11-15T04:50:01.207Z",
+    "gender": "male",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.userprofile",
+  "pk": 29,
+  "fields": {
+    "user": 29,
+    "phone": "8309836008",
+    "address": null,
+    "profile_picture": "",
+    "updated_at": "2026-05-23T11:36:24.178Z",
+    "gender": "female",
+    "account_type": "buyer"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 1,
+  "fields": {
+    "user": 14,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 2,
+  "fields": {
+    "user": 15,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 3,
+  "fields": {
+    "user": 16,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 4,
+  "fields": {
+    "user": 17,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 5,
+  "fields": {
+    "user": 18,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 6,
+  "fields": {
+    "user": 19,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 7,
+  "fields": {
+    "user": 20,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 8,
+  "fields": {
+    "user": 21,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 9,
+  "fields": {
+    "user": 22,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 10,
+  "fields": {
+    "user": 23,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 11,
+  "fields": {
+    "user": 24,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 12,
+  "fields": {
+    "user": 25,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 13,
+  "fields": {
+    "user": 26,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 14,
+  "fields": {
+    "user": 27,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 15,
+  "fields": {
+    "user": 28,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 16,
+  "fields": {
+    "user": 29,
+    "phone": "",
+    "address": "",
+    "profile_picture": ""
+  }
+}
+]
