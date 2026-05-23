@@ -1,0 +1,34 @@
+/* ⭐ Reusable Star Rating CSS */
+.rating-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  clip-path: polygon(
+    50% 0%, 63% 38%, 98% 38%, 
+    68% 59%, 79% 95%, 50% 75%, 
+    21% 95%, 32% 59%, 2% 38%, 37% 38%
+  );
+  border: 1px solid #facc15;
+  box-sizing: border-box;
+}
+
+.star.full {
+  background-color: #facc15;
+}
+
+.star.empty {
+  background-color: white;
+}
+
+.star.half {
+  background: linear-gradient(90deg, #facc15 50%, white 50%);
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}

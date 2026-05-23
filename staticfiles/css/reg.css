@@ -1,0 +1,36 @@
+body {
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .form-container h2 {
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .register-btn {
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      border: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .register-btn:hover {
+      background: linear-gradient(to right, #5dc8c0, #8e98e6);
+    }
+
+    .form-check-label {
+      margin-right: 20px;
+    }
